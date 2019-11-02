@@ -11,6 +11,7 @@ class AuthComponent extends Component {
       register: true
     };
     this.register = this.register.bind(this);
+    this.login = this.login.bind(this);
   }
 
   async register() {
@@ -47,6 +48,7 @@ class AuthComponent extends Component {
           }}
         >
           <div className="input-box">
+            <label>username</label>
             <input
               value={username}
               onChange={e =>
@@ -56,8 +58,33 @@ class AuthComponent extends Component {
               }
             />
           </div>
+          <div className="input-container">
+            <label>email</label>
+            <input
+              type="email"
+              value={email}
+              onChange={e =>
+                this.setState({
+                  email: e.target.value
+                })
+              }
+            />
+          </div>
+          <div className="input-container">
+            <label>password</label>
+            <input
+              type="password"
+              value={password}
+              onchange={e =>
+                this.setState({
+                  password: e.target.value
+                })
+              }
+            />
+            <button>{register ? "Register" : "Login"}</button>
+          </div>
+          <button>login</button>
         </form>
-        Auth Component
       </div>
     );
   }
