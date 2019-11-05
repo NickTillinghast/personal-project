@@ -1,0 +1,10 @@
+.about-middle {
+  display: flex;
+  justify-content: space-around;
+}
+.about-family {
+  background-color: white;
+}
+.story {
+  background-color: thistle;
+}

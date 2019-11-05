@@ -10,6 +10,7 @@ const {
   login,
   logout,
   userSession
+  // get_user
 } = require("./controller/userController");
 
 const { SESSION_SECRET, CONNECTION_STRING, SERVER_PORT } = process.env;
@@ -30,7 +31,7 @@ massive(CONNECTION_STRING).then(db => {
   console.log("db connected");
   app.set("db", db);
 });
-
+// app.get("user", get_user);
 app.post("/auth/register", register);
 app.post("/auth/login", login);
 app.delete("/auth/logout", logout);

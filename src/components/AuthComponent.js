@@ -47,6 +47,7 @@ class AuthComponent extends Component {
             }
           }}
         >
+          <br />
           <div className="input-box">
             <label>username</label>
             <input
@@ -59,6 +60,7 @@ class AuthComponent extends Component {
             />
           </div>
           <div className="input-container">
+            <br />
             <label>email</label>
             <input
               type="email"
@@ -71,7 +73,9 @@ class AuthComponent extends Component {
             />
           </div>
           <div className="input-container">
+            <br />
             <label>password</label>
+
             <input
               type="password"
               value={password}
@@ -81,8 +85,11 @@ class AuthComponent extends Component {
                 })
               }
             />
+            <br />
+            <br />
             <button>{register ? "Register" : "Login"}</button>
           </div>
+          <br />
           <button>login</button>
         </form>
       </div>

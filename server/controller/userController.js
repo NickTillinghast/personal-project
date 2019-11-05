@@ -1,6 +1,11 @@
 const bcrypt = require("bcrypt");
 
 module.exports = {
+  // get_user_by_email: (req, res, next) => {
+  //   const { session } = req.body;
+  //   res.status(200).send(session.user);
+  // },
+
   register: async (req, res, next) => {
     const { username, password, email } = req.body;
     const db = req.app.get("db");
