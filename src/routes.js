@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio";
 import ClientLogin from "./components/ClientLogin/ClientLogin";
 import Contact from "./components/Contact/Contact";
-import AuthComponent from "./components/AuthComponent";
+import AuthComponent from "./components/AuthComponent/AuthComponent";
 
 export default (
   <Switch>

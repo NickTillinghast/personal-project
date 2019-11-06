@@ -15,7 +15,8 @@ const {
 
 const {
   userGalleries,
-  deleteGallery
+  deleteGallery,
+  getAllGalleries
 } = require("./controller/galleryController");
 
 const { SESSION_SECRET, CONNECTION_STRING, SERVER_PORT } = process.env;
@@ -43,5 +44,6 @@ app.delete("/auth/logout", logout);
 app.get("/auth/user_session", userSession);
 app.delete("/auth/delete_gallery", deleteGallery);
 app.get("/auth/get_user_galleries", userGalleries);
+app.get("/auth/get_all_galleries", getAllGalleries);
 
 app.listen(port, () => console.log(`listening on port ${port}`));

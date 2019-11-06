@@ -38,7 +38,15 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <div>gallery link</div>
+          <div className="gallery-1">
+            <a href="https://nicktillinghastphotography.pixieset.com/davidandalexisentire/">
+              <img
+                className="gal-1-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/ffxtfxfzkqiaojlwxpv9.jpg"
+                alt="none"
+              />
+            </a>
+          </div>
           <div>gallery link</div>
         </div>
         <div className="personal-work">

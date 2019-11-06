@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 // import axiois from "axoios";
-import AuthComponent from "../AuthComponent";
+import AuthComponent from "../AuthComponent/AuthComponent";
 import { Link } from "react-router-dom";
 import "./ClientLogin.css";
+// import { connect } from "react-redux";
+// import { setUser } from "../../ducks/reducer";
 // import { Route } from "react-router-dom";
 
 class ClientLogin extends Component {
@@ -33,4 +35,18 @@ class ClientLogin extends Component {
     );
   }
 }
+
+// function mapReduxStateToProps(reduxState) {
+//   return reduxState;
+// }
+// const mapDispatchToProps = {
+//   setUser
+// };
+
+// const enhancedComponent = connect(
+//   mapReduxStateToProps,
+//   mapDispatchToProps
+// );
+
+// export default enhancedComponent(ClientLogin);
 export default ClientLogin;

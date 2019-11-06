@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { connect } from "react-redux";
-import { setUser } from "../ducks/reducer";
+// import { connect } from "react-redux";
+// import { setUser } from "../ducks/reducer";
 
 class AuthComponent extends Component {
   constructor(props) {
@@ -51,7 +51,7 @@ class AuthComponent extends Component {
         >
           <br />
           <div className="input-box">
-            <label>username</label>
+            <label>Username</label>
             <input
               value={username}
               onChange={e =>
@@ -63,7 +63,7 @@ class AuthComponent extends Component {
           </div>
           <div className="input-container">
             <br />
-            <label>email</label>
+            <label>Email</label>
             <input
               type="email"
               value={email}
@@ -76,7 +76,7 @@ class AuthComponent extends Component {
           </div>
           <div className="input-container">
             <br />
-            <label>password</label>
+            <label>Password</label>
 
             <input
               type="password"
@@ -87,28 +87,31 @@ class AuthComponent extends Component {
                 })
               }
             />
-
             <br />
-            <button>{register ? "Register" : "Login"}</button>
+            <br />
+            <button className="reg-button">
+              {register ? "Register" : "Login"}
+            </button>
           </div>
           <br />
-          <button>login</button>
+          <button className="reg-button">login</button>
         </form>
       </div>
     );
   }
 }
 
-function mapReduxStateToProps(reduxState) {
-  return reduxState;
-}
-const mapDispatchToProps = {
-  setUser
-};
+// function mapReduxStateToProps(reduxState) {
+//   return reduxState;
+// }
+// const mapDispatchToProps = {
+//   setUser
+// };
 
-const enhancedComponent = connect(
-  mapReduxStateToProps,
-  mapDispatchToProps
-);
+// const enhancedComponent = connect(
+//   mapReduxStateToProps,
+//   mapDispatchToProps
+// );
 
-export default enhancedComponent(AuthComponent);
+// export default enhancedComponent(AuthComponent);
+export default AuthComponent;

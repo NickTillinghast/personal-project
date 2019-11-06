@@ -8,9 +8,7 @@ module.exports = {
     const allGalleries = await req.app.get("db").get_all_galleries();
     return res.status(200).send(allGalleries);
   },
-  //   addGalleries: async (req, res) => {
-  //       const {}
-  //   },
+
   deleteGallery: (req, res, next) => {
     const db = req.app.get("db");
     const { gallery_id } = req.body;
