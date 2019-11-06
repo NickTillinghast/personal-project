@@ -32,7 +32,7 @@ module.exports = {
             };
             res.status(200).send(req.session.user);
           } else {
-            res.status(400).send("username and password invalid");
+            res.status(401).send("username and password invalid");
           }
         });
       }

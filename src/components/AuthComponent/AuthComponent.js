@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { setUser } from "../../ducks/reducer";
+import { withRouter } from "react-router";
 import axios from "axios";
-// import { connect } from "react-redux";
-// import { setUser } from "../ducks/reducer";
 
 class AuthComponent extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class AuthComponent extends Component {
       username: "",
       password: "",
       email: "",
-      register: true
+      register: false
     };
     this.register = this.register.bind(this);
     this.login = this.login.bind(this);
@@ -24,6 +25,7 @@ class AuthComponent extends Component {
       email
     });
     this.props.setUser(registeredUser.data);
+    this.props.history.push("/ClientGalleries");
   }
   async login() {
     const { password, email } = this.state;
@@ -32,6 +34,7 @@ class AuthComponent extends Component {
       password
     });
     this.props.setUser(loggedInUser.data);
+    this.props.history.push("/ClientGalleries");
   }
 
   render() {
@@ -77,7 +80,6 @@ class AuthComponent extends Component {
           <div className="input-container">
             <br />
             <label>Password</label>
-
             <input
               type="password"
               value={password}
@@ -89,29 +91,38 @@ class AuthComponent extends Component {
             />
             <br />
             <br />
-            <button className="reg-button">
-              {register ? "Register" : "Login"}
+            <button
+              className="reg-button"
+              onClick={() => {
+                this.register();
+              }}
+            >
+              Register
             </button>
           </div>
           <br />
-          <button className="reg-button">login</button>
+          <button
+            className="reg-button"
+            onClick={() => {
+              this.login();
+            }}
+          >
+            login
+          </button>
         </form>
       </div>
     );
   }
 }
 
-// function mapReduxStateToProps(reduxState) {
-//   return reduxState;
-// }
-// const mapDispatchToProps = {
-//   setUser
-// };
+function mapReduxStateToProps(reduxState) {
+  return reduxState;
+}
+const mapDispatchToProps = {
+  setUser
+};
 
-// const enhancedComponent = connect(
-//   mapReduxStateToProps,
-//   mapDispatchToProps
-// );
-
-// export default enhancedComponent(AuthComponent);
-export default AuthComponent;
+export default connect(
+  mapReduxStateToProps,
+  mapDispatchToProps
+)(withRouter(AuthComponent));

@@ -36,17 +36,4 @@ class ClientLogin extends Component {
   }
 }
 
-// function mapReduxStateToProps(reduxState) {
-//   return reduxState;
-// }
-// const mapDispatchToProps = {
-//   setUser
-// };
-
-// const enhancedComponent = connect(
-//   mapReduxStateToProps,
-//   mapDispatchToProps
-// );
-
-// export default enhancedComponent(ClientLogin);
 export default ClientLogin;
