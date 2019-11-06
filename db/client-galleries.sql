@@ -1,0 +1,8 @@
+INSERT INTO gallery (gallery_name, gallery_date, gallery_link, gallery_image, user_id)
+VALUES ('Liz and Quinn wedding', 'April 6th 2019', 'https://nicktillinghastphotography.pixieset.com/elizabethandquinn/', 'https://res.cloudinary.com/dqpatwz6c/image/upload/v1572966671/Sized%20down%20for%20personal%20project/z458aiuqq5spmqjcb2ig.jpg', 5),
+       ('Liz and Quinn E-session', 'June 16th 2018', 'https://nicktillinghastphotography.pixieset.com/lizandquinn/','https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/nagwiiczvmi7oqh0e3mt.jpg', 5),
+       ('Kristen and Dustin','August 1st 2018','https://nicktillinghastphotography.pixieset.com/kristenanddustin/','https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977628/Sized%20down%20for%20personal%20project/rogrwguxurjcskztknae.jpg', 4),
+       ('Kristen and Dustin Wedding','November 18th 2017','https://nicktillinghastphotography.pixieset.com/dustinandkristen/','https://res.cloudinary.com/dqpatwz6c/image/upload/v1572972286/Sized%20down%20for%20personal%20project/utezltlhvm9b0lotu1al.jpg', 4),
+       ('Errol and Alexis','March 30th 2018','https://nicktillinghastphotography.pixieset.com/errolandalexis-1/','https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970886/Sized%20down%20for%20personal%20project/i8acjy0crzysoa8zdv5b.jpg', 3),
+       ('Errol and Alexis Maternity','January 26th 2019','https://nicktillinghastphotography.pixieset.com/alexisanderrol/','https://res.cloudinary.com/dqpatwz6c/image/upload/v1572978145/Sized%20down%20for%20personal%20project/wfpzcycc4h6uoayzbn1f.jpg', 3);
+      

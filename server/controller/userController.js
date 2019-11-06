@@ -1,11 +1,6 @@
 const bcrypt = require("bcrypt");
 
 module.exports = {
-  // get_user_by_email: (req, res, next) => {
-  //   const { session } = req.body;
-  //   res.status(200).send(session.user);
-  // },
-
   register: async (req, res, next) => {
     const { username, password, email } = req.body;
     const db = req.app.get("db");
@@ -45,11 +40,19 @@ module.exports = {
   },
   logout: (req, res, next) => {
     req.session.destroy();
-    res
-      .status(200)
-      .send("Hope you enjoy your new body part! tag us in instagram!!!!");
+    res.status(200).send("thank for your support");
   },
   userSession: (req, res, next) => {
     res.status(200).send(req.session.user);
+  },
+  getUser: (req, res, next) => {
+    const db = req.app.get("db");
+    const { email } = req.params;
+    db.find_user_by_email(email)
+      .then(user => res.status(200).send(user))
+      .catch(err => {
+        res.status(400).send({ errorMessage: "something went wrong" });
+        console.log(err);
+      });
   }
 };

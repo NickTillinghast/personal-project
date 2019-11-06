@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { connect } from "react-redux";
+import { setUser } from "../ducks/reducer";
 
 class AuthComponent extends Component {
   constructor(props) {
@@ -79,13 +81,13 @@ class AuthComponent extends Component {
             <input
               type="password"
               value={password}
-              onchange={e =>
+              onChange={e =>
                 this.setState({
                   password: e.target.value
                 })
               }
             />
-            <br />
+
             <br />
             <button>{register ? "Register" : "Login"}</button>
           </div>
@@ -97,4 +99,16 @@ class AuthComponent extends Component {
   }
 }
 
-export default AuthComponent;
+function mapReduxStateToProps(reduxState) {
+  return reduxState;
+}
+const mapDispatchToProps = {
+  setUser
+};
+
+const enhancedComponent = connect(
+  mapReduxStateToProps,
+  mapDispatchToProps
+);
+
+export default enhancedComponent(AuthComponent);

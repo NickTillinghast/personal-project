@@ -1,0 +1,34 @@
+.logo {
+  height: 20px;
+  width: 10px;
+}
+
+.home-container {
+  width: 100%;
+}
+.home-container > div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container .home-carousel {
+  max-height: 700px;
+  opacity: 0;
+  animation: fade-in 0.3s linear 1 forwards;
+}
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.lightbox-image {
+  padding: 15px;
+  height: 600px;
+  width: 900px;
+}
+.gal-1-image {
+  height: 200px;
+  width: 300px;
+}

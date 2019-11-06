@@ -9,9 +9,14 @@ const {
   register,
   login,
   logout,
-  userSession
-  // get_user
+  userSession,
+  getUser
 } = require("./controller/userController");
+
+const {
+  userGalleries,
+  deleteGallery
+} = require("./controller/galleryController");
 
 const { SESSION_SECRET, CONNECTION_STRING, SERVER_PORT } = process.env;
 const port = SERVER_PORT;
@@ -31,10 +36,12 @@ massive(CONNECTION_STRING).then(db => {
   console.log("db connected");
   app.set("db", db);
 });
-// app.get("user", get_user);
+app.get("/auth/get_user", getUser);
 app.post("/auth/register", register);
 app.post("/auth/login", login);
 app.delete("/auth/logout", logout);
 app.get("/auth/user_session", userSession);
+app.delete("/auth/delete_gallery", deleteGallery);
+app.get("/auth/get_user_galleries", userGalleries);
 
 app.listen(port, () => console.log(`listening on port ${port}`));

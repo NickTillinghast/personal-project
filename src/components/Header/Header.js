@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Router } from "react-router-dom";
+
 import { Link } from "react-router-dom";
 
 export default class Header extends Component {
@@ -8,7 +8,7 @@ export default class Header extends Component {
       <div>
         <header className="header">
           <div className="logo">
-            <div>logo</div>
+            <img src="img/logo.png" alt="logo" class="logo" />
           </div>
           <ul className="tabs">
             <Link className="links" to="/">

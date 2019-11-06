@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS users;
-DROP TABLE IF EXISTS gallery;
+-- DROP TABLE IF EXISTS users;
+-- DROP TABLE IF EXISTS gallery;
 
 
 CREATE TABLE users 
