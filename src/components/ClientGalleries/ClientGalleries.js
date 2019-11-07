@@ -10,23 +10,18 @@ export default class ClientGalleries extends Component {
       allGalleries: []
     };
 
-    // this.getAllGalleries = this.getAllGalleries.bind(this);
     this.getClientGalleries = this.getClientGalleries.bind(this);
   }
 
   componentDidMount() {
-    // this.getAllGalleries();
     this.getClientGalleries();
   }
 
-  // getAllGalleries() {
+  // logout() {
   //   axios
-  //     .get("/auth/get_all_galleries")
-  //     .then(response => {
-  //       this.setState({
-  //         allGalleries: response.data
-  //       });
-  //       console.log(this.state);
+  //     .get("/auth/logout")
+  //     .then(() => {
+  //       this.props.updateUser({});
   //     })
   //     .catch(err => console.log(err));
   // }
@@ -44,22 +39,7 @@ export default class ClientGalleries extends Component {
 
   render() {
     const { allGalleries } = this.state;
-    // const mappedGalleries = () => {
-    //   if (allGalleries.length > 0) {
-    //     allGalleries.map(gallery => {
-    //       return (
-    //         <Gallery
-    //           key={gallery.id}
-    //           gallery={gallery.gallery}
-    //           deleteGallery={this.deleteGallery}
-    //         />
-    //       );
-    //     });
-    //   } else {
-    //     return <div>hello</div>;
-    //   }
-    // };
-    //  display of all galleries
+
     return (
       <div className="gallery-main">
         <div className="all-galleries">
@@ -71,11 +51,13 @@ export default class ClientGalleries extends Component {
                   gallery={this.state.gallery}
                   image={gallery.gallery_image}
                   imagelink={gallery.gallery_link}
-                  deleteGallery={this.deleteGallery}
                 />
               );
             })}
         </div>
+        {/* <button type="submit" onClick={this.logout}>
+          Logout
+        </button> */}
       </div>
     );
   }

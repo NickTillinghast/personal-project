@@ -7,8 +7,9 @@ module.exports = {
     return res.status(200).send(galleries);
   },
   getAllGalleries: async (req, res) => {
+    const { user_id } = req.session.user;
     const db = await req.app.get("db");
-    const allGalleries = await db.get_all_galleries();
+    const allGalleries = await db.get_all_galleries([user_id]);
     return res.status(200).send(allGalleries);
   },
 
@@ -23,5 +24,33 @@ module.exports = {
           .send({ errorMessage: " something went wrong.  cant delete" });
         console.log(err);
       });
+  },
+  editGallery: async (req, res, next) => {
+    const db = req.app.get("db");
+    console.log("body:", req.body);
+    const {
+      gallery_id,
+      gallery_name,
+      gallery_date,
+      gallery_link,
+      gallery_image,
+      user_id
+    } = req.body;
+    const gallery = await db.updateGallery([
+      gallery_id,
+      gallery_name,
+      gallery_date,
+      gallery_link,
+      gallery_image,
+      user_id
+    ]);
+    console.log("gallery:", gallery);
+    return res.status(200).send(gallery);
+  },
+  getGallery: async (req, res, next) => {
+    const db = await req.app.get("db");
+    const { id } = req.params;
+    const gallery = await db.get_gallery_info(id);
+    return res.status(200).send(gallery);
   }
 };

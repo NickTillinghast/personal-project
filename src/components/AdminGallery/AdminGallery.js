@@ -1,18 +1,22 @@
 import React, { Component } from "react";
-import Gallery from "../Gallery/Gallery";
+
 import axios from "axios";
+import Gallery from "../Gallery/Gallery";
+import EditGallery from "./EditGallery";
 
 export default class AdminGallery extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      allGalleries: []
+      allGalleries: [],
+      isEditing: false,
+      editingGallery: 0
     };
     this.getAllGalleries = this.getAllGalleries.bind(this);
+    this.editStatus = this.editStatus.bind(this);
   }
   componentDidMount() {
     this.getAllGalleries();
-    // this.getClientGalleries();
   }
 
   getAllGalleries() {
@@ -22,41 +26,46 @@ export default class AdminGallery extends Component {
         this.setState({
           allGalleries: response.data
         });
-        // console.log(this.state);
+        console.log(this.state);
       })
       .catch(err => console.log(err));
+  }
+  editStatus(id) {
+    this.setState({
+      isEditing: !this.state.isEditing,
+      editingGallery: id
+    });
   }
 
   render() {
     const { allGalleries } = this.state;
+    const mappedGalleries =
+      allGalleries.length > 0 &&
+      allGalleries.map((gallery, index) => {
+        return (
+          <Gallery
+            key={index}
+            gallery={this.state.gallery}
+            image={gallery.gallery_image}
+            imageLink={gallery.gallery_link}
+            gallery_name={gallery.gallery_name}
+            gallery_id={gallery.gallery_id}
+            user_id={gallery.user_id}
+            date={gallery.gallery_date}
+            editStatus={() => this.editStatus(gallery.gallery_id)}
+          />
+        );
+      });
     return (
       <div className="admin-main">
         <div className="admin-gallery">
-          {allGalleries.length > 0 &&
-            allGalleries.map((gallery, index) => {
-              return (
-                <Gallery
-                  key={index}
-                  gallery={this.state.gallery}
-                  image={gallery.gallery_image}
-                  imageLink={gallery.gallery_link}
-                />
-              );
-            })}
+          {!this.state.isEditing ? (
+            mappedGalleries
+          ) : (
+            <EditGallery gallery_id={this.state.editingGallery} />
+          )}
         </div>
       </div>
     );
   }
 }
-// function mapReduxStateToProps(reduxState) {
-//   return reduxState;
-// }
-
-// const mapDispatchToProps = {
-//   setUser
-// };
-
-// export default connect(
-//   mapReduxStateToProps,
-//   mapDispatchToProps
-// )(withRouter(AdminGallery));

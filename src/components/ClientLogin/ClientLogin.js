@@ -19,13 +19,20 @@ class ClientLogin extends Component {
   render() {
     return (
       <div className="form">
-        <AuthComponent />
-        <Link className="links" to="/AuthComponent"></Link>
         <div className="form-text">
+          <br />
+          <br />
+          <br />
+          <br />
           Please log in and view your lovely photos. You will be asisted through
           the viewing process and have instruction on how to download your
           images.
         </div>
+        <br />
+        <br />
+        <AuthComponent />
+        <Link className="links" to="/AuthComponent"></Link>
+
         <br />
         <div className="form-bottom">
           hello again

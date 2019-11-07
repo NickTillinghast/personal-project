@@ -26,12 +26,6 @@ export default class Header extends Component {
             <Link className="links" to="/Contact">
               Contact
             </Link>
-            {/* <Link className="links" to="/ClientGalleries">
-              ClientGalleries
-            </Link> */}
-            <Link className="links" to="/AdminGalleries">
-              AdminGalleries
-            </Link>
           </ul>
         </header>
       </div>

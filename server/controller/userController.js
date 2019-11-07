@@ -39,11 +39,11 @@ module.exports = {
     });
   },
   admin: async (req, res, next) => {
-    const { email, password } = req.body;
+    const { password } = req.body;
     const db = req.app.get("db");
-    db.find_user_by_email(email).then(([foundUser]) => {
+    db.find_user_by_id().then(([foundUser]) => {
       if (!foundUser) {
-        res.status(400).send("please login");
+        res.status(400).send("admin login");
       } else {
         bcrypt.compare(password, foundUser.password).then(isAuthenticated => {
           if (isAuthenticated) {
@@ -67,15 +67,15 @@ module.exports = {
   },
   userSession: (req, res, next) => {
     res.status(200).send(req.session.user);
-  },
-  getUser: (req, res, next) => {
-    const db = req.app.get("db");
-    const { email } = req.params;
-    db.find_user_by_email(email)
-      .then(user => res.status(200).send(user))
-      .catch(err => {
-        res.status(400).send({ errorMessage: "something went wrong" });
-        console.log(err);
-      });
   }
+  // getUser: (req, res, next) => {
+  //   const db = req.app.get("db");
+  //   const { email } = req.params;
+  //   db.find_user_by_email(email)
+  //     .then(user => res.status(200).send(user))
+  //     .catch(err => {
+  //       res.status(400).send({ errorMessage: "something went wrong" });
+  //       console.log(err);
+  //     });
+  // }
 };

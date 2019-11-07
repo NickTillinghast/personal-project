@@ -17,36 +17,61 @@ class AuthComponent extends Component {
     this.login = this.login.bind(this);
   }
 
-  async register() {
-    const { username, password, email } = this.state;
-    const registeredUser = await axios.post("/auth/register", {
-      username,
-      password,
-      email
-    });
-    this.props.setUser(registeredUser.data);
-    this.props.history.push("/ClientGalleries");
+  async register(e) {
+    if (
+      this.state.username === "" ||
+      this.state.password === "" ||
+      this.state.email === ""
+    ) {
+      e.preventDefault();
+    } else {
+      e.preventDefault();
+      const { username, password, email } = this.state;
+      const registeredUser = await axios.post("/auth/register", {
+        username,
+        password,
+        email
+      });
+      this.props.setUser(registeredUser.data);
+      this.props.history.push("/ClientGalleries");
+    }
   }
-  async login() {
-    const { password, email } = this.state;
-    const loggedInUser = await axios.post("/auth/login", {
-      email,
-      password
-    });
-    this.props.setUser(loggedInUser.data);
-    this.props.history.push("/ClientGalleries");
+  async login(e) {
+    if (
+      this.state.username === "" ||
+      this.state.password === "" ||
+      this.state.email === ""
+    ) {
+      e.preventDefault();
+    } else {
+      e.preventDefault();
+      const { password, email } = this.state;
+      const loggedInUser = await axios.post("/auth/login", {
+        email,
+        password
+      });
+      this.props.setUser(loggedInUser.data);
+      this.props.history.push("/ClientGalleries");
+    }
   }
-
-  async adminLogin() {
-    const { password, email } = this.state;
-    const loggedInAdmin = await axios.post("/auth/admin", {
-      email,
-      password
-    });
-    this.props.setUser(loggedInAdmin.data);
-    this.props.history.push("/ClientGalleries");
+  async adminLogin(e) {
+    if (
+      this.state.username === "" ||
+      this.state.password === "" ||
+      this.state.email === ""
+    ) {
+      e.preventDefault();
+    } else {
+      e.preventDefault();
+      const { password, email } = this.state;
+      const loggedInAdmin = await axios.post("/auth/admin", {
+        email,
+        password
+      });
+      this.props.setUser(loggedInAdmin.data);
+      this.props.history.push("/AdminGallery");
+    }
   }
-
   render() {
     const { username, password, email, register } = this.state;
     console.log(this.props);
@@ -103,8 +128,8 @@ class AuthComponent extends Component {
             <br />
             <button
               className="reg-button"
-              onClick={() => {
-                this.register();
+              onClick={e => {
+                this.register(e);
               }}
             >
               Register
@@ -113,8 +138,8 @@ class AuthComponent extends Component {
           <br />
           <button
             className="reg-button"
-            onClick={() => {
-              this.login();
+            onClick={e => {
+              this.login(e);
             }}
           >
             login
@@ -123,8 +148,8 @@ class AuthComponent extends Component {
           <br />
           <button
             className="reg-button"
-            onClick={() => {
-              this.adminLogin();
+            onClick={e => {
+              this.adminLogin(e);
             }}
           >
             Admin Login
