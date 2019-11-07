@@ -37,6 +37,16 @@ class AuthComponent extends Component {
     this.props.history.push("/ClientGalleries");
   }
 
+  async adminLogin() {
+    const { password, email } = this.state;
+    const loggedInAdmin = await axios.post("/auth/admin", {
+      email,
+      password
+    });
+    this.props.setUser(loggedInAdmin.data);
+    this.props.history.push("/ClientGalleries");
+  }
+
   render() {
     const { username, password, email, register } = this.state;
     console.log(this.props);
@@ -108,6 +118,16 @@ class AuthComponent extends Component {
             }}
           >
             login
+          </button>
+          <br />
+          <br />
+          <button
+            className="reg-button"
+            onClick={() => {
+              this.adminLogin();
+            }}
+          >
+            Admin Login
           </button>
         </form>
       </div>

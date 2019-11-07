@@ -10,7 +10,8 @@ const {
   login,
   logout,
   userSession,
-  getUser
+  getUser,
+  admin
 } = require("./controller/userController");
 
 const {
@@ -45,5 +46,6 @@ app.get("/auth/user_session", userSession);
 app.delete("/auth/delete_gallery", deleteGallery);
 app.get("/auth/get_user_galleries", userGalleries);
 app.get("/auth/get_all_galleries", getAllGalleries);
+app.post("/auth/admin", admin);
 
 app.listen(port, () => console.log(`listening on port ${port}`));

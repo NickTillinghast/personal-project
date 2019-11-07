@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-// import { connect } from "react-redux";
-// import { setUser } from "../../ducks/reducer";
-// import { withRouter } from "react-router";
 import Gallery from "../Gallery/Gallery";
 import axios from "axios";
 
@@ -25,7 +22,7 @@ export default class AdminGallery extends Component {
         this.setState({
           allGalleries: response.data
         });
-        console.log(this.state);
+        // console.log(this.state);
       })
       .catch(err => console.log(err));
   }
@@ -34,7 +31,7 @@ export default class AdminGallery extends Component {
     const { allGalleries } = this.state;
     return (
       <div className="admin-main">
-        <div>
+        <div className="admin-gallery">
           {allGalleries.length > 0 &&
             allGalleries.map((gallery, index) => {
               return (

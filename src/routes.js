@@ -7,6 +7,7 @@ import ClientLogin from "./components/ClientLogin/ClientLogin";
 import Contact from "./components/Contact/Contact";
 import AuthComponent from "./components/AuthComponent/AuthComponent";
 import ClientGalleries from "./components/ClientGalleries/ClientGalleries";
+import AdminGallery from "./components/AdminGallery/AdminGallery";
 
 export default (
   <Switch>
@@ -17,6 +18,6 @@ export default (
     <Route path="/Contact" component={Contact} />
     <Route path="/AuthComponent" component={AuthComponent} />
     <Route path="/ClientGalleries" component={ClientGalleries} />
-    {/* <Route path="/ClientGalleries/:id" component={ClientGalleries/:id} /> */}
+    <Route path="/AdminGallery" component={AdminGallery} />
   </Switch>
 );

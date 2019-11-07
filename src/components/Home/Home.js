@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Images from "../Lightbox";
 
 import "react-image-lightbox/style.css";
+
 // import HomeCarousel from "./HomeCarousel";
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Home.css";
@@ -47,6 +48,7 @@ class Home extends Component {
               />
             </a>
           </div>
+
           <div>gallery link</div>
         </div>
         <div className="personal-work">

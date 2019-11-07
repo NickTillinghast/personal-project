@@ -38,6 +38,29 @@ module.exports = {
       }
     });
   },
+  admin: async (req, res, next) => {
+    const { email, password } = req.body;
+    const db = req.app.get("db");
+    db.find_user_by_email(email).then(([foundUser]) => {
+      if (!foundUser) {
+        res.status(400).send("please login");
+      } else {
+        bcrypt.compare(password, foundUser.password).then(isAuthenticated => {
+          if (isAuthenticated) {
+            req.session.user = {
+              user_id: foundUser.user_id,
+              username: foundUser.username,
+              email: foundUser.email
+            };
+            res.status(200).send(req.session.user);
+          } else {
+            res.status(401).send("admins only please");
+          }
+        });
+      }
+    });
+  },
+
   logout: (req, res, next) => {
     req.session.destroy();
     res.status(200).send("thank for your support");
