@@ -35,8 +35,6 @@ export default class EditGallery extends Component {
       });
   }
 
-  // huge obj var
-
   saveButton() {
     const {
       gallery_image,
@@ -72,10 +70,10 @@ export default class EditGallery extends Component {
     } = this.state;
     return (
       <div>
-        <div>
+        <div className="edit-gal-main">
           <form>
-            <div>
-              <label>Gallery Id</label>
+            <div className="edit-boxes">
+              <label className="input-boxes">Gallery Id</label>
               <input
                 value={gallery_id}
                 onChange={e =>
@@ -136,7 +134,6 @@ export default class EditGallery extends Component {
             <div>
               <button onClick={this.saveButton}>Save</button>
             </div>
-            this is the form
           </form>
         </div>
       </div>

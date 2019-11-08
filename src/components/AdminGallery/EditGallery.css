@@ -1,0 +1,10 @@
+.edit-gal-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit-boxes {
+  height: 300px;
+  width: 600px;
+}

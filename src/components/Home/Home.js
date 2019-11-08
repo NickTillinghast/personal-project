@@ -22,9 +22,6 @@ class Home extends Component {
         <div className="main-box">
           <Images />
         </div>
-        <div className="home-container">
-          <div></div>
-        </div>
         <div className="personal-box">
           <div>
             <div>
@@ -48,8 +45,15 @@ class Home extends Component {
               />
             </a>
           </div>
-
-          <div>gallery link</div>
+          <div className="gallery-1">
+            <a href="https://nicktillinghastphotography.pixieset.com/delaneyfamily/">
+              <img
+                className="gal-1-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573181929/Sized%20down%20for%20personal%20project/rwfdguxeibuo9fgvqz57.jpg"
+                alt="none"
+              ></img>
+            </a>
+          </div>
         </div>
         <div className="personal-work">
           this will hopefully be the carousel box scrolling images.{" "}

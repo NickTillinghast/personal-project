@@ -1,17 +1,11 @@
 import React, { Component } from "react";
+import "./About.css";
 
 export default class About extends Component {
   render() {
     return (
       <div className="about-main">
-        <div className="about-top">
-          <h1>
-            I really should not be too involved in the english language but here
-            I go. My Name is Nick Tillinghast and I take make images and eat
-            meatball, pizza, sandwitches. I love horror movies and wish I could
-            retire and run old theater showing unique movies of my choice.
-          </h1>
-        </div>
+        <div className="about-top"></div>
         <div className="about-middle">
           <div className="about-family">
             <h2>
@@ -33,7 +27,10 @@ export default class About extends Component {
         </div>
         <div className="about-bottom">
           <div className="about-gallery-1">
-            <h1>bottom stuff</h1>
+            <h2>
+              There's a huge part of my life that most people do not know about
+              me.
+            </h2>
           </div>
           <div className="about-gallery-1">
             <h1>bottom stuff</h1>
@@ -42,7 +39,14 @@ export default class About extends Component {
             <h1>bottom stuff</h1>
           </div>
         </div>
-        about
+        <div className="about-very-bottom">
+          <h1>
+            I really should not be too involved in the english language but here
+            I go. My Name is Nick Tillinghast and I take make images and eat
+            meatball, pizza, sandwitches. I love horror movies and wish I could
+            retire and run old theater showing unique movies of my choice.
+          </h1>
+        </div>
       </div>
     );
   }

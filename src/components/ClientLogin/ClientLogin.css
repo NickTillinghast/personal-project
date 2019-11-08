@@ -1,8 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
+
 .form-text {
   color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 20px;
-}
-.form-bottom {
+  font-size: 23px;
+  font-weight: 900;
 }
