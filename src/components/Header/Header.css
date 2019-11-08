@@ -1,4 +1,20 @@
+header {
+  /* background-color: rgb(255, 255, 255); */
+  height: 50px;
+  color: rgb(15, 14, 14);
+  padding: 10px;
+}
+
 .logo {
   width: 200px;
   height: 400px;
 }
+
+/* header ul {
+  padding: 15px;
+}
+header li {
+  float: right;
+  margin: 0 15px;
+  font-size: 24px;
+} */

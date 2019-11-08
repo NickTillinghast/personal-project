@@ -1,6 +1,6 @@
 .about-main {
   background-color: transparent;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-evenly;
   height: 100vh;

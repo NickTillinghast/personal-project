@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import "./EditGallery.css";
 
 export default class EditGallery extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ export default class EditGallery extends Component {
       user_id: 0
     };
     this.saveButton = this.saveButton.bind(this);
+    this.deleteButton = this.deleteButton.bind(this);
   }
   componentDidMount() {
     this.getGallery();
@@ -35,6 +37,12 @@ export default class EditGallery extends Component {
       });
   }
 
+  deleteButton() {
+    const { gallery_id } = this.props;
+    axios
+      .delete("/auth/delete_gallery", { gallery_id })
+      .then(console.log(gallery_id));
+  }
   saveButton() {
     const {
       gallery_image,
@@ -52,7 +60,7 @@ export default class EditGallery extends Component {
       gallery_date,
       user_id
     };
-    console.log(4444, galleryObj);
+    // console.log(4444, galleryObj);
 
     axios.put("/auth/edit_gallery", galleryObj).then(res => {
       console.log(777777, res);
@@ -69,12 +77,13 @@ export default class EditGallery extends Component {
       user_id
     } = this.state;
     return (
-      <div>
+      <div className="edit-gal">
         <div className="edit-gal-main">
           <form>
             <div className="edit-boxes">
               <label className="input-boxes">Gallery Id</label>
               <input
+                className="input-boxes"
                 value={gallery_id}
                 onChange={e =>
                   this.setState({
@@ -84,6 +93,7 @@ export default class EditGallery extends Component {
               />
               <label>Gallery Image</label>
               <input
+                className="input-boxes"
                 value={gallery_image}
                 onChange={e =>
                   this.setState({
@@ -93,6 +103,7 @@ export default class EditGallery extends Component {
               />
               <label>Gallery Link</label>
               <input
+                className="input-boxes"
                 value={gallery_link}
                 onChange={e =>
                   this.setState({
@@ -102,6 +113,7 @@ export default class EditGallery extends Component {
               />
               <label>Gallery Name</label>
               <input
+                className="input-boxes"
                 value={gallery_name}
                 onChange={e =>
                   this.setState({
@@ -111,6 +123,7 @@ export default class EditGallery extends Component {
               />
               <label>Gallery Date</label>
               <input
+                className="input-boxes"
                 value={gallery_date}
                 onChange={e =>
                   this.setState({
@@ -120,6 +133,7 @@ export default class EditGallery extends Component {
               />
               <label>User Id</label>
               <input
+                className="input-boxes"
                 value={user_id}
                 onChange={e =>
                   this.setState({
@@ -130,6 +144,9 @@ export default class EditGallery extends Component {
             </div>
             <div>
               <button onClick={() => {}}>Cancel</button>
+            </div>
+            <div>
+              <button onClick={this.deleteButton}>Delete</button>
             </div>
             <div>
               <button onClick={this.saveButton}>Save</button>

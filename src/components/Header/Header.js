@@ -11,20 +11,21 @@ export default class Header extends Component {
             <img className="logo" src={logo} alt="none" />
           </div>
           <ul className="tabs">
-            <Link className="links" to="/">
-              Home
-            </Link>
-            <Link className="links" to="/About">
-              About
-            </Link>
-            <Link className="links" to="/ClientLogin">
+            <Link className="header-links" to="/ClientLogin">
               Client Login
             </Link>
-            <Link className="links" to="/Portfolio">
+            <Link className="header-links" to="/Contact">
+              Contact
+            </Link>
+
+            <Link className="header-links" to="/About">
+              About
+            </Link>
+            <Link className="header-links" to="/Portfolio">
               Portfolio
             </Link>
-            <Link className="links" to="/Contact">
-              Contact
+            <Link className="header-links" to="/">
+              Home
             </Link>
           </ul>
         </header>

@@ -17,12 +17,12 @@
   background-position: top;
   background-size: cover;
 }
-header {
+/* header {
   background-color: transparent;
   height: 50px;
   color: rgb(15, 14, 14);
   padding: 5px;
-}
+} */
 
 .logo {
   height: 9vh;
@@ -30,24 +30,52 @@ header {
   float: left;
 }
 
-header ul {
+/* header ul {
   padding: 15px;
-}
+} */
 
-header li {
+/* header li {
   float: right;
   margin: 0 15px;
   font-size: 24px;
-}
-.links {
+} */
+.header-links {
   float: right;
-  margin: 0 15px;
+  /* height: 20px; */
+  margin: 20px 10px;
   font-size: 24px;
   text-decoration: none;
   color: black;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(236, 236, 236);
+}
+.header-links:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px rgba(109, 109, 109, 0.2);
+}
+.header-links:active {
+  transform: translate(-1px);
+  box-shadow: 0 5px 10px rgba(117, 117, 117, 0.2);
+}
+.header-links::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.header-links:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }
 
 .gallery-box {
@@ -73,21 +101,8 @@ header li {
   border-radius: 30px;
   font-size: 20px;
   width: 900px;
-  background-color: rgb(216, 216, 231);
+  background-color: rgb(253, 239, 239);
   border-width: 5px;
-  border-color: rgb(116, 116, 116);
+  border-color: rgb(212, 183, 151);
   border-style: solid;
-}
-.edit-gal-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  margin: 40px;
-}
-.edit-boxes {
-  height: 300px;
-  width: 600px;
-  background-color: white;
 }

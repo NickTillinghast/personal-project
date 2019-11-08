@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Images from "../Lightbox";
 
 import "react-image-lightbox/style.css";
-
+import "./Home.css";
 // import HomeCarousel from "./HomeCarousel";
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./Home.css";
+
 // import { Link, Switch } from "react-router-dom";
 
 class Home extends Component {

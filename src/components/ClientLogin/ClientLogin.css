@@ -3,15 +3,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  /* height: 400px; */
   width: 100vw;
   background-color: rgb(255, 255, 255);
+  /* margin-top: 450px; */
 }
 
 .form-text {
+  text-align: center;
   color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 23px;
-  font-weight: 900;
+  font-size: 21px;
+  font-weight: 700;
+}
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.client-page-img {
+  height: 300px;
+  width: 300px;
 }

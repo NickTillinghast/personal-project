@@ -15,15 +15,11 @@ module.exports = {
 
   deleteGallery: (req, res, next) => {
     const db = req.app.get("db");
+
     const { gallery_id } = req.body;
     db.delete_gallery(gallery_id)
-      .then(() => res.sendStatus(200))
-      .catch(err => {
-        res
-          .status(500)
-          .send({ errorMessage: " something went wrong.  cant delete" });
-        console.log(err);
-      });
+      .then(res.sendStatus(200))
+      .catch(err => console.log(err));
   },
   editGallery: async (req, res, next) => {
     const db = req.app.get("db");

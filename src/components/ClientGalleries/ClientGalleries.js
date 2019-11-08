@@ -41,23 +41,25 @@ export default class ClientGalleries extends Component {
     const { allGalleries } = this.state;
 
     return (
-      <div className="gallery-main">
-        <div className="all-galleries">
-          {allGalleries.length > 0 &&
-            allGalleries.map((gallery, index) => {
-              return (
-                <Gallery
-                  key={index}
-                  gallery={this.state.gallery}
-                  image={gallery.gallery_image}
-                  imagelink={gallery.gallery_link}
-                />
-              );
-            })}
-        </div>
-        {/* <button type="submit" onClick={this.logout}>
+      <div className="client-gallery">
+        <div className="gallery-main">
+          <div className="all-galleries">
+            {allGalleries.length > 0 &&
+              allGalleries.map((gallery, index) => {
+                return (
+                  <Gallery
+                    key={index}
+                    gallery={this.state.gallery}
+                    image={gallery.gallery_image}
+                    imagelink={gallery.gallery_link}
+                  />
+                );
+              })}
+          </div>
+          {/* <button type="submit" onClick={this.logout}>
           Logout
         </button> */}
+        </div>
       </div>
     );
   }
