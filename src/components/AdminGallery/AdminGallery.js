@@ -57,13 +57,15 @@ export default class AdminGallery extends Component {
         );
       });
     return (
-      <div className="admin-main">
-        <div className="admin-gallery">
-          {!this.state.isEditing ? (
-            mappedGalleries
-          ) : (
-            <EditGallery gallery_id={this.state.editingGallery} />
-          )}
+      <div className="admin-gallery-main">
+        <div className="admin-main">
+          <div className="admin-gallery">
+            {!this.state.isEditing ? (
+              mappedGalleries
+            ) : (
+              <EditGallery gallery_id={this.state.editingGallery} />
+            )}
+          </div>
         </div>
       </div>
     );

@@ -19,7 +19,8 @@ const {
   deleteGallery,
   getAllGalleries,
   editGallery,
-  getGallery
+  getGallery,
+  addGallery
 } = require("./controller/galleryController");
 
 const { SESSION_SECRET, CONNECTION_STRING, SERVER_PORT } = process.env;
@@ -45,11 +46,13 @@ app.post("/auth/register", register);
 app.post("/auth/login", login);
 app.delete("/auth/logout", logout);
 app.get("/auth/user_session", userSession);
-app.delete("/auth/delete_gallery", deleteGallery);
+app.delete("/auth/delete_gallery/:gallery_id", deleteGallery);
 app.get("/auth/get_user_galleries", userGalleries);
 app.get("/auth/get_all_galleries", getAllGalleries);
 app.post("/auth/admin", admin);
 app.put("/auth/edit_gallery", editGallery);
 app.get("/auth/get_gallery_info/:id", getGallery);
+app.post("/auth/add_client_gallery", addGallery);
+// app.post("/auth/contact", contact)
 
 app.listen(port, () => console.log(`listening on port ${port}`));

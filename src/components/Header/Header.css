@@ -1,9 +1,24 @@
-header {
-  /* background-color: rgb(255, 255, 255); */
-  height: 50px;
+/* .header-main {
+  background-color: magenta;
+  display: flex;
+  width: 100vw;
+} */
+
+/* header { */
+/* background-color: rgb(255, 255, 255); */
+/* height: 50px;
   color: rgb(15, 14, 14);
-  padding: 10px;
-}
+  padding: 10px; */
+/* border-image: linear-gradient(
+      to left,
+      rgb(255, 255, 255) 1%,
+      grey 10%,
+      rgb(0, 0, 0) 50%,
+      grey 90%,
+      rgb(255, 255, 255) 100%
+    )
+    0 0 100% 0/0 0 3px 0 stretch; */
+/* } */
 
 .logo {
   width: 200px;
@@ -18,3 +33,11 @@ header li {
   margin: 0 15px;
   font-size: 24px;
 } */
+/* border-image: linear-gradient(
+  to left,
+  rgb(255, 255, 255) 1%,
+  grey 10%,
+  rgb(0, 0, 0) 50%,
+  grey 90%,
+  rgb(255, 255, 255) 100%
+) 0 0 100% 0/0 0 3px 0 stretch; */

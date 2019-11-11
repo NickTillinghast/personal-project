@@ -5,7 +5,7 @@ import logo from "./logo.png";
 export default class Header extends Component {
   render() {
     return (
-      <div>
+      <div className="header-main">
         <header className="header">
           <div className="logo-div">
             <img className="logo" src={logo} alt="none" />

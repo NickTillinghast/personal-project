@@ -1,6 +1,7 @@
-/* .admin-main {
+.admin-gallery-main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-} */
+  height: 100vh;
+  margin-top: 100px;
+  width: 100vw;
+}

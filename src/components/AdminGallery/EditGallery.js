@@ -40,8 +40,28 @@ export default class EditGallery extends Component {
   deleteButton() {
     const { gallery_id } = this.props;
     axios
-      .delete("/auth/delete_gallery", { gallery_id })
+      .delete(`/auth/delete_gallery/${gallery_id}`)
       .then(console.log(gallery_id));
+  }
+  addButton() {
+    const {
+      gallery_image,
+      gallery_link,
+      gallery_name,
+      gallery_date,
+      user_id
+    } = this.state;
+    let newGalleryObj = {
+      gallery_image,
+      gallery_link,
+      gallery_name,
+      gallery_date,
+      user_id
+    };
+
+    axios.post("/auth/add_client_gallery", newGalleryObj).then(res => {
+      console.log(1234, res);
+    });
   }
   saveButton() {
     const {
@@ -65,6 +85,9 @@ export default class EditGallery extends Component {
     axios.put("/auth/edit_gallery", galleryObj).then(res => {
       console.log(777777, res);
     });
+  }
+  cancelButton() {
+    this.setState(this.state);
   }
 
   render() {
@@ -143,13 +166,20 @@ export default class EditGallery extends Component {
               />
             </div>
             <div>
-              <button onClick={() => {}}>Cancel</button>
+              <button onClick={this.cancelButton}>Cancel</button>
             </div>
             <div>
-              <button onClick={this.deleteButton}>Delete</button>
+              <button onClick={() => this.deleteButton(this.props.gallery_id)}>
+                Delete
+              </button>
             </div>
             <div>
               <button onClick={this.saveButton}>Save</button>
+            </div>
+            <div>
+              <button onClick={() => this.addButton(this.state.newGalleryObj)}>
+                Add
+              </button>
             </div>
           </form>
         </div>

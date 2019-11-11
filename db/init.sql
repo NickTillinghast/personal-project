@@ -23,7 +23,7 @@ user_id INTEGER REFERENCES users(user_id)
 );
 
 INSERT INTO gallery ( gallery_name, gallery_date, gallery_link, gallery_image, user_id)
-VALUES ('Kaylee and James', 'October 3 2017', 'https://nicktillinghastphotography.pixieset.com/kayleeandjames/','https://res.cloudinary.com/dqpatwz6c/image/upload/v1572645978/No%20Db%20images/bd05a7zji5nn61ldzkun.jpg', 1);
+VALUES ('Kaylee and James', 'October 3 2017', 'https://nicktillinghastphotography.pixieset.com/kayleeandjames/','https://res.cloudinary.com/dqpatwz6c/image/upload/v1572645978/No%20Db%20images/bd05a7zji5nn61ldzkun.jpg', 17);
 
 
 

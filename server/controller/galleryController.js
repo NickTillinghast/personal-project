@@ -16,7 +16,8 @@ module.exports = {
   deleteGallery: (req, res, next) => {
     const db = req.app.get("db");
 
-    const { gallery_id } = req.body;
+    const { gallery_id } = req.params;
+    console.log(req.params);
     db.delete_gallery(gallery_id)
       .then(res.sendStatus(200))
       .catch(err => console.log(err));
@@ -47,6 +48,26 @@ module.exports = {
     const db = await req.app.get("db");
     const { id } = req.params;
     const gallery = await db.get_gallery_info(id);
+    return res.status(200).send(gallery);
+  },
+  addGallery: async (req, res, next) => {
+    const db = req.app.get("db");
+    const {
+      gallery_name,
+      gallery_date,
+      gallery_link,
+      gallery_image,
+      user_id
+    } = req.body;
+    const gallery = await db.add_client_gallery([
+      gallery_name,
+      gallery_date,
+      gallery_link,
+      gallery_image,
+      user_id
+    ]);
+
+    console.log("gallery:", gallery);
     return res.status(200).send(gallery);
   }
 };
