@@ -54,9 +54,8 @@ export default class Contact extends Component {
     return (
       <div className="contact-form-home">
         <div className="contact-text">
-          Hello world. I love coffe and connecting with people. Please fill my
-          contact form and we can meet over a cup of coffee and look at photos
-          together.
+          I love coffee and connecting with people. Please fill my contact form
+          and we can meet over a cup of coffee and look at photos together.
         </div>
         <div className="contact-main">
           <form className="contact-form">
@@ -73,6 +72,7 @@ export default class Contact extends Component {
               <div>
                 <label className>Last Name</label>
                 <input
+                  className="contact-input-box"
                   type="text"
                   id="lastName"
                   onChange={e => this.lastHandleChange(e.target.value)}
@@ -81,6 +81,7 @@ export default class Contact extends Component {
               <div>
                 <label className>Email</label>
                 <input
+                  className="contact-input-box"
                   type="text"
                   id="email"
                   onChange={e => this.emailHandleChange(e.target.value)}
@@ -89,6 +90,7 @@ export default class Contact extends Component {
               <div>
                 <label className>Phone Number</label>
                 <input
+                  className="contact-input-box"
                   type="text"
                   id="phoneNumber"
                   onChange={e => this.phoneHandleChange(e.target.value)}

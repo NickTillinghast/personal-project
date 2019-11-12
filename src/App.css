@@ -61,10 +61,10 @@
   transition: all 0.4s;
 }
 
-.header-links:hover::after {
+/* .header-links:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
-}
+} */
 .header-main {
   background-color: rgb(255, 255, 255);
   width: 100vw;
