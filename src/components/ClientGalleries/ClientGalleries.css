@@ -1,7 +1,14 @@
 .client-gallery {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
   margin-top: 100px;
+}
+.all-galleries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
 }
+/* img {
+  width: 50vw;
+  padding: 30px;
+} */

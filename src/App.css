@@ -29,19 +29,8 @@
   width: 25vw;
   float: left;
 }
-
-/* header ul {
-  padding: 15px;
-} */
-
-/* header li {
-  float: right;
-  margin: 0 15px;
-  font-size: 24px;
-} */
 .header-links {
   float: right;
-
   margin: 20px 10px;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -102,24 +91,4 @@
   align-items: center;
   height: 100px;
   width: 50%;
-}
-/* .personal-box {
-  background-color: transparent;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 200px;
-  width: 50%;
-} */
-
-.auth-container {
-  padding: 30px;
-  text-align: center;
-  border-radius: 30px;
-  font-size: 20px;
-  width: 900px;
-  background-color: rgb(253, 239, 239);
-  border-width: 5px;
-  border-color: rgb(212, 183, 151);
-  border-style: solid;
 }

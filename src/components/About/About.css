@@ -1,55 +1,53 @@
 .about-main {
   background-color: transparent;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100vh;
-  width: 100vw;
-  margin: 0 auto;
-  text-align: center;
-}
-.about-family {
-  font-size: 30px;
-  background-color: white;
-  width: 500px;
-}
+  align-items: center;
 
-.about-top {
   width: 100vw;
-  height: 200px;
-  background-color: transparent;
-  padding: 50px;
 }
-.family-shot {
-  height: 100%;
-  width: 100%;
+.about-hero {
+  display: flex;
 }
 .about-middle {
-  display: flex;
-  justify-content: space-around;
-  width: 100vw;
-  height: 300px;
-  background-color: transparent;
-  padding: 50px;
+  font-size: 25px;
+  padding: 20px;
 }
+.about-middle-bottom {
+  font-size: 25px;
+}
+.about-family {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.about-middle-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .about-bottom {
   font-size: 30px;
   display: flex;
   justify-content: space-around;
 }
+
+.family-shot {
+  width: 45vw;
+  padding: 20px;
+  border-radius: 40px;
+}
 .about-gallery-1 {
   display: flex;
-  margin-top: 500px;
-  height: 500px;
-  width: 300px;
+  flex-direction: column;
+  height: 700px;
+  width: 30vw;
   background-color: transparent;
   justify-content: space-around;
   background-color: rgb(184, 255, 231);
-}
-.about-very-bottom {
-  background-color: cadetblue;
-  height: 300px;
-  width: 100vw;
 }
 
 .story {
@@ -60,4 +58,11 @@
   height: 200px;
   background-color: transparent;
   padding: 50px;
+}
+.kinley-hero {
+  width: 30vw;
+}
+.about-me-image {
+  width: 20vw;
+  border-radius: 40px;
 }

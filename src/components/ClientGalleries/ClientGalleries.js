@@ -56,9 +56,6 @@ export default class ClientGalleries extends Component {
                 );
               })}
           </div>
-          {/* <button type="submit" onClick={this.logout}>
-          Logout
-        </button> */}
         </div>
       </div>
     );

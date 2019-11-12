@@ -1,43 +1,61 @@
-/* .header-main {
-  background-color: magenta;
-  display: flex;
-  width: 100vw;
-} */
+/* .header-links {
+  float: right;
 
-/* header { */
-/* background-color: rgb(255, 255, 255); */
-/* height: 50px;
-  color: rgb(15, 14, 14);
-  padding: 10px; */
-/* border-image: linear-gradient(
+  margin: 20px 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: rgb(211, 211, 211);
+}
+.header-links:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px rgba(109, 109, 109, 0.2);
+}
+.header-links:active {
+  transform: translate(-1px);
+  box-shadow: 0 5px 10px rgba(117, 117, 117, 0.2);
+}
+.header-links::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.header-links:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.header-main {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 90px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(
       to left,
       rgb(255, 255, 255) 1%,
-      grey 10%,
+      grey 20%,
       rgb(0, 0, 0) 50%,
-      grey 90%,
+      grey 80%,
       rgb(255, 255, 255) 100%
     )
-    0 0 100% 0/0 0 3px 0 stretch; */
-/* } */
+    0 0 100% 0/0 0 3px 0 stretch;
+} 
 
 .logo {
-  width: 200px;
-  height: 400px;
-}
-
-/* header ul {
-  padding: 15px;
-}
-header li {
-  float: right;
-  margin: 0 15px;
-  font-size: 24px;
-} */
-/* border-image: linear-gradient(
-  to left,
-  rgb(255, 255, 255) 1%,
-  grey 10%,
-  rgb(0, 0, 0) 50%,
-  grey 90%,
-  rgb(255, 255, 255) 100%
-) 0 0 100% 0/0 0 3px 0 stretch; */
+  height: 9vh;
+  width: 25vw;
+  float: left;
+}  */

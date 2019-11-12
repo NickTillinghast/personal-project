@@ -1,4 +1,47 @@
-.video {
-  height: 60vh;
-  width: 90vw;
+.contact-form-home {
+  background-color: rgb(243, 243, 243);
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
 }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+}
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  width: 67vw;
+  background-color: rgb(211, 211, 211);
+  margin: 0 auto;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgba(0, 0, 0, 0.822);
+  border-radius: 20px;
+}
+
+.form-box {
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(211, 211, 211);
+  width: 50vw;
+}
+.contact-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-image {
+  padding: 40px;
+  width: 70vw;
+}
+/* .contact-input-box {
+  width: 200px;
+} */

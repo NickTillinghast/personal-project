@@ -1,14 +1,10 @@
-/* .video-box {
-  height: 60vh;
-  width: 100vw;
-} */
 .video {
   height: 60vh;
   width: 90vw;
   padding: 10px;
 }
 
-.top {
+.port-text {
   font-size: 40px;
 }
 .grid-container {
@@ -16,7 +12,7 @@
   width: 100vw;
   grid-column-gap: 10px;
   grid-template-columns: auto auto auto;
-  /* background-color: #ffffff; */
+
   padding: 30px;
 }
 .grid-item {
@@ -27,7 +23,14 @@
 }
 .grid-image {
   width: 400px;
+  border-radius: 10px;
 }
 /* .grid-item-6 {
   width: 500px;
 } */
+.hero {
+  width: 70vw;
+}
+.hero {
+  padding: 10px;
+}

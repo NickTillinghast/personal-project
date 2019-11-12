@@ -27,3 +27,15 @@
   height: 300px;
   width: 300px;
 }
+
+.auth-container {
+  padding: 30px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+  width: 900px;
+  background-color: rgb(253, 239, 239);
+  border-width: 5px;
+  border-color: rgb(212, 183, 151);
+  border-style: solid;
+}

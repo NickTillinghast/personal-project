@@ -1,0 +1,44 @@
+.kinley-grid-container {
+  display: grid;
+  width: 100vw;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+
+  padding: 30px;
+}
+.kinley-grid-item {
+  widows: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 1px;
+}
+.kinley-grid-image {
+  width: 400px;
+  border-radius: 10px;
+}
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.kinley-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.kinley-hero-1 {
+  width: 20vw;
+  border-radius: 10px;
+}
+.kinley-hero-2 {
+  width: 40vw;
+  border-radius: 10px;
+}
+.kinley-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 5px;
+}
