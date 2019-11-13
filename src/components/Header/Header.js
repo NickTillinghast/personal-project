@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
+import Dropdown from "../DropDown/Dropdown";
 
 export default class Header extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class Header extends Component {
           <div className="logo-div">
             <img className="logo" src={logo} alt="none" />
           </div>
+          {/* <Dropdown /> */}
           <ul className="tabs">
             <Link className="header-links" to="/ClientLogin">
               Client Login
@@ -20,9 +22,9 @@ export default class Header extends Component {
             <Link className="header-links" to="/About">
               About
             </Link>
-            <Link className="header-links" to="/Portfolio">
-              Portfolio
-            </Link>
+            <div className="header-links">
+              <Dropdown />
+            </div>
             <Link className="header-links" to="/">
               Home
             </Link>

@@ -3,19 +3,13 @@ import Images from "../Lightbox";
 
 import "react-image-lightbox/style.css";
 import "./Home.css";
-// import HomeCarousel from "./HomeCarousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-// import { Link, Switch } from "react-router-dom";
 
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-  // handleClick(e) {
-  //   this.setState({href="https://nicktillinghastphotography.pixieset.com/eliseandjames/" })
-  // }
+
   render() {
     return (
       <div className="home-main">
@@ -24,39 +18,53 @@ class Home extends Component {
         </div>
         <div className="personal-box">
           <div>
+            <h2>This is MY website and I'll do what I want to.</h2>
+            <h2>
+              One of my favorite things is imagery. Sooooooo my website is gonna
+              be packed with imagery.
+            </h2>
+            <h2>
+              I really want my work to speak for itself. I love real moments and
+              true colors.
+            </h2>
+          </div>
+          <div className="home-gallery-link">
+            <div>
+              <div>
+                <div className="gallery-1">
+                  <a href="https://nicktillinghastphotography.pixieset.com/eliseandjames/">
+                    <img
+                      className="gal-1-image"
+                      src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572975817/Sized%20down%20for%20personal%20project/gku6rspbf913vc67xrrj.jpg"
+                      alt="none"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
             <div>
               <div className="gallery-1">
-                <a href="https://nicktillinghastphotography.pixieset.com/eliseandjames/">
+                <a href="https://nicktillinghastphotography.pixieset.com/davidandalexisentire/">
                   <img
                     className="gal-1-image"
-                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572975817/Sized%20down%20for%20personal%20project/gku6rspbf913vc67xrrj.jpg"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/ffxtfxfzkqiaojlwxpv9.jpg"
+                    alt="none"
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <div className="gallery-1">
+                <a href="https://nicktillinghastphotography.pixieset.com/delaneyfamily/">
+                  <img
+                    className="gal-1-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573181929/Sized%20down%20for%20personal%20project/rwfdguxeibuo9fgvqz57.jpg"
                     alt="none"
                   />
                 </a>
               </div>
             </div>
           </div>
-          <div className="gallery-1">
-            <a href="https://nicktillinghastphotography.pixieset.com/davidandalexisentire/">
-              <img
-                className="gal-1-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/ffxtfxfzkqiaojlwxpv9.jpg"
-                alt="none"
-              />
-            </a>
-          </div>
-          <div className="gallery-1">
-            <a href="https://nicktillinghastphotography.pixieset.com/delaneyfamily/">
-              <img
-                className="gal-1-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573181929/Sized%20down%20for%20personal%20project/rwfdguxeibuo9fgvqz57.jpg"
-                alt="none"
-              ></img>
-            </a>
-          </div>
-        </div>
-        <div className="personal-work">
-          this will hopefully be the carousel box scrolling images.{" "}
         </div>
       </div>
     );

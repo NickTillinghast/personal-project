@@ -36,9 +36,11 @@
   border-radius: 10px;
 }
 .kinley-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  /* /* align-items: center; */
+  /* width: 100vw; */
+  font-size: 30px;
   padding: 5px;
 }

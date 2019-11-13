@@ -1,0 +1,30 @@
+.personal-main {
+  background: url("Pool.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: rgb(0, 0, 0);
+}
+
+.personal-grid-container {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-template-columns: auto auto auto;
+}
+.personal-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  background-color: transparent;
+}
+.personal-grid-item {
+  widows: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 1px;
+}
+.personal-grid-image {
+  width: 30vw;
+  margin-left: 25px;
+}

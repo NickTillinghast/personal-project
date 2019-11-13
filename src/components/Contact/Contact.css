@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(243, 243, 243);
-  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
   margin-bottom: 50px;
   text-align: center;
   font-size: 25px;
@@ -43,9 +43,24 @@
 }
 .contact-image {
   padding: 40px;
-  width: 70vw;
+  width: 60vw;
+  border-radius: 65px;
 }
 
 .contact-input-box {
+  border-radius: 10px;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80vw;
+}
+.contact-text-1 {
+  padding: 20px;
+}
+.send-button {
+  padding: 10px;
+  margin-top: 15px;
   border-radius: 10px;
 }

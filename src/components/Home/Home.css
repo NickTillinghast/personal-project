@@ -4,65 +4,40 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  /* height: 100vh; */
   width: 100vw;
 }
 .personal-box {
   background-color: transparent;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 200px;
   width: 50%;
 }
-
-/* .personal-work {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: transparent;
-  height: 100px;
-  width: 50%;
-} */
-.logo {
-  height: 20px;
-  width: 10px;
-}
-
-/* .home-container {
-  width: 100%;
-} */
-/* .home-container > div {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* .home-container {
-  max-height: 700px;
-  opacity: 0;
-  animation: fade-in 0.3s linear 1 forwards;
-} */
 .main-box {
   display: flex;
-  justify-content: center;
+  margin-bottom: 50px;
 }
+.home-gallery-link {
+  display: flex;
+  /* align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px; */
+}
+/* .main-box {
+  display: flex;
+  justify-content: center;
+} */
 .lightbox-image {
   padding: 30px;
-
   width: 100vw;
 }
+.gallery-1 {
+  display: flex;
+}
 .gal-1-image {
-  margin-top: 200px;
   height: 200px;
   width: 300px;
-}
-.personal-work {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: transparent;
-  height: 100px;
-  width: 50%;
-  margin-top: 600px;
 }

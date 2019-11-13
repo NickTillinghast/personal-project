@@ -17,12 +17,6 @@
   background-position: top;
   background-size: cover;
 }
-/* header {
-  background-color: transparent;
-  height: 50px;
-  color: rgb(15, 14, 14);
-  padding: 5px;
-} */
 
 .logo {
   height: 9vh;
@@ -61,10 +55,6 @@
   transition: all 0.4s;
 }
 
-/* .header-links:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-} */
 .header-main {
   background-color: rgb(255, 255, 255);
   width: 100vw;
@@ -91,4 +81,8 @@
   align-items: center;
   height: 100px;
   width: 50%;
+}
+.drop-li a {
+  color: #000;
+  text-decoration: none;
 }

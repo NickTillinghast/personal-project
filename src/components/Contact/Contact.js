@@ -54,8 +54,22 @@ export default class Contact extends Component {
     return (
       <div className="contact-form-home">
         <div className="contact-text">
-          I love coffee and connecting with people. Please fill my contact form
-          and we can meet over a cup of coffee and look at photos together.
+          <div className="contact-bottom">
+            <img
+              className="contact-image"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573514621/Sized%20down%20for%20personal%20project/c4rjposrikt85wobxigr.jpg"
+              alt="none"
+            />
+          </div>
+          <div className="contact-text-1">
+            I love coffee and connecting with people. Please fill my contact
+            form and we can meet over a cup of coffee and look at photos
+            together.
+          </div>
+          <div className="contact-text-1">
+            I can get all nerdy about images so please feel free to ask
+            anything.
+          </div>
         </div>
         <div className="contact-main">
           <form className="contact-form">
@@ -98,18 +112,15 @@ export default class Contact extends Component {
               </div>
             </div>
             <div className="submit-button-contact">
-              <button onClick={e => this.submitButton(e)} type="submit">
-                Submit
+              <button
+                className="send-button"
+                onClick={e => this.submitButton(e)}
+                type="submit"
+              >
+                Send Your Info Via The Magic Of Internet
               </button>
             </div>
           </form>
-        </div>
-        <div className="contact-bottom">
-          <img
-            className="contact-image"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573514621/Sized%20down%20for%20personal%20project/c4rjposrikt85wobxigr.jpg"
-            alt="none"
-          />
         </div>
       </div>
     );

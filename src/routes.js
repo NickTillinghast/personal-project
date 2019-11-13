@@ -2,24 +2,30 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Weddings from "./components/Weddings/Weddings";
 import ClientLogin from "./components/ClientLogin/ClientLogin";
 import Contact from "./components/Contact/Contact";
 import AuthComponent from "./components/AuthComponent/AuthComponent";
 import ClientGalleries from "./components/ClientGalleries/ClientGalleries";
 import AdminGallery from "./components/AdminGallery/AdminGallery";
 import Kinley from "./components/Kinley/Kinley";
+import FamilyGalleries from "./components/FamilyGalleries/FamilyGalleries";
+import PersonalWork from "./components/PersonalWork/PersonalWork";
+import Portraits from "./components/Portraits/Portraits";
 
 export default (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route path="/About" component={About} />
-    <Route path="/Portfolio" component={Portfolio} />
+    <Route path="/Weddings" component={Weddings} />
     <Route path="/ClientLogin" component={ClientLogin} />
     <Route path="/Contact" component={Contact} />
     <Route path="/AuthComponent" component={AuthComponent} />
     <Route path="/ClientGalleries" component={ClientGalleries} />
     <Route path="/AdminGallery" component={AdminGallery} />
     <Route path="/Kinley" component={Kinley} />
+    <Route path="/FamilyGalleries" component={FamilyGalleries} />
+    <Route path="/PersonalWork" component={PersonalWork} />
+    <Route path="/Portraits" component={Portraits} />
   </Switch>
 );
