@@ -1,6 +1,8 @@
-/* .header-links {
+.logo {
+  float: left;
+}
+.header-links {
   float: right;
-
   margin: 20px 10px;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -19,7 +21,6 @@
   box-shadow: 0 5px 10px rgba(117, 117, 117, 0.2);
 }
 .header-links::after {
-  content: "";
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -31,10 +32,6 @@
   transition: all 0.4s;
 }
 
-.header-links:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
 .header-main {
   background-color: rgb(255, 255, 255);
   width: 100vw;
@@ -52,10 +49,4 @@
       rgb(255, 255, 255) 100%
     )
     0 0 100% 0/0 0 3px 0 stretch;
-} 
-
-.logo {
-  height: 9vh;
-  width: 25vw;
-  float: left;
-}  */
+}

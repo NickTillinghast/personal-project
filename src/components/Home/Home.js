@@ -16,6 +16,8 @@ class Home extends Component {
         <div className="main-box">
           <Images />
         </div>
+        <div className="main-bottom-border"></div>
+
         <div className="personal-box">
           <div>
             <h2>This is MY website and I'll do what I want to.</h2>
@@ -28,6 +30,8 @@ class Home extends Component {
               true colors.
             </h2>
           </div>
+          <div className="main-bottom-border"></div>
+
           <div className="home-gallery-link">
             <div>
               <div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
 import Dropdown from "../DropDown/Dropdown";
+import "./Header.css";
 
 export default class Header extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Header extends Component {
           <div className="logo-div">
             <img className="logo" src={logo} alt="none" />
           </div>
-          {/* <Dropdown /> */}
+
           <ul className="tabs">
             <Link className="header-links" to="/ClientLogin">
               Client Login

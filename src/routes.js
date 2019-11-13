@@ -12,6 +12,9 @@ import Kinley from "./components/Kinley/Kinley";
 import FamilyGalleries from "./components/FamilyGalleries/FamilyGalleries";
 import PersonalWork from "./components/PersonalWork/PersonalWork";
 import Portraits from "./components/Portraits/Portraits";
+import Cora from "./components/Cora/Cora";
+import Scarlett from "./components/Scarlett/Scarlett";
+import Amber from "./components/Amber/Amber";
 
 export default (
   <Switch>
@@ -27,5 +30,8 @@ export default (
     <Route path="/FamilyGalleries" component={FamilyGalleries} />
     <Route path="/PersonalWork" component={PersonalWork} />
     <Route path="/Portraits" component={Portraits} />
+    <Route path="/Cora" component={Cora} />
+    <Route path="/Scarlett" component={Scarlett} />
+    <Route path="/Amber" component={Amber} />
   </Switch>
 );

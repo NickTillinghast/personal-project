@@ -12,8 +12,9 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 200px;
+  /* height: 200px; */
   width: 50%;
+  padding: 20px;
 }
 .main-box {
   display: flex;
@@ -21,6 +22,7 @@
 }
 .home-gallery-link {
   display: flex;
+  padding: 20px;
   /* align-items: center;
   flex-direction: row;
   justify-content: space-around;
@@ -31,13 +33,30 @@
   justify-content: center;
 } */
 .lightbox-image {
-  padding: 30px;
+  padding: 25px;
   width: 100vw;
 }
 .gallery-1 {
   display: flex;
+  padding: 20px;
 }
 .gal-1-image {
   height: 200px;
   width: 300px;
+}
+.main-bottom-border {
+  width: 100vw;
+
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(
+      to left,
+      rgb(255, 255, 255) 1%,
+      grey 20%,
+      rgb(0, 0, 0) 50%,
+      grey 80%,
+      rgb(255, 255, 255) 100%
+    )
+    0 0 100% 0/0 0 3px 0 stretch;
 }

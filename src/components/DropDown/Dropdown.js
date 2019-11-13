@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Dropdown.css";
 
 class Dropdown extends React.Component {
   constructor() {
@@ -35,16 +36,16 @@ class Dropdown extends React.Component {
 
         {this.state.displayMenu ? (
           <ul className="drop-ul">
-            <Link className="header-links" to="/Weddings">
+            <Link className="dropdown-links" to="/Weddings">
               <li className="drop-li">Weddings</li>
             </Link>
-            <Link className="header-links" to="/FamilyGalleries">
+            <Link className="dropdown-links" to="/FamilyGalleries">
               <li className="drop-li">Families</li>
             </Link>
-            <Link className="header-links" to="/Portraits">
+            <Link className="dropdown-links" to="/Portraits">
               <li className="drop-li">Portraits</li>
             </Link>
-            <Link className="header-links" to="/PersonalWork">
+            <Link className="dropdown-links" to="/PersonalWork">
               <li className="drop-li">Personal Work</li>
             </Link>
           </ul>

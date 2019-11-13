@@ -7,6 +7,15 @@ export default class About extends Component {
     return (
       <div className="about-main">
         <div className="about-middle">
+          <div>
+            I really should not be too involved in the english language but here
+            I go. My Name is Nick Tillinghast and I take make images and eat
+            meatball, pizza, sandwitches. I love horror movies and wish I could
+            retire and run old theater showing unique movies of my choice.
+          </div>
+        </div>
+
+        <div className="about-middle">
           <div className="about-family">
             <div className="about-hero">
               <div>
@@ -16,6 +25,7 @@ export default class About extends Component {
                   alt="none"
                 />
               </div>
+
               <div>
                 <img
                   className="family-shot"
@@ -25,6 +35,7 @@ export default class About extends Component {
               </div>
             </div>
           </div>
+          <div className="about-bottom-border"></div>
           <div className="about-family">
             <div>
               I love my family more than words. I love documenting my girls and
@@ -35,42 +46,41 @@ export default class About extends Component {
           </div>
         </div>
         <div className="about-middle-bottom">
-          <h1>
-            I really should not be too involved in the english language but here
-            I go. My Name is Nick Tillinghast and I take make images and eat
-            meatball, pizza, sandwitches. I love horror movies and wish I could
-            retire and run old theater showing unique movies of my choice.
-          </h1>
+          <div className="about-bottom-border"></div>
           <div className="about-middle-box">
             <img
               className="about-me-image"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241184/Sized%20down%20for%20personal%20project/d6usqvhwwb8artzwadoq.jpg"
               alt=""
             />
-            <img
-              className="about-me-image"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445434/Sized%20down%20for%20personal%20project/defech5lzysmlxlgzopy.jpg"
-              alt=""
-            />
+            <Link className="kinlye-path" to="/Amber">
+              <img
+                className="about-me-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445434/Sized%20down%20for%20personal%20project/defech5lzysmlxlgzopy.jpg"
+                alt=""
+              />
+            </Link>
             <img
               className="about-me-image"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573523566/Sized%20down%20for%20personal%20project/slvaylltgtkncds1o2jk.jpg"
               alt=""
             />
           </div>
-        </div>{" "}
+        </div>
         <div className="about-bottom">
           <div className="about-gallery-1">
-            <h2>
-              There's a huge part of my life that most people do not know about
-              me. My wife and I have endoured what is in my opinion one of the
-              worst things that can happen to a couple. If you would like to
-              know just click the image.
-            </h2>
+            <div className="about-text-divs">
+              <div>
+                There's a huge part of my life that most people do not know
+                about me. My wife and I have endoured what is in my opinion one
+                of the worst things that can happen to a couple. More info here
+                if you are willing. Possible tears warning.
+              </div>
+            </div>
             <div>
               <Link className="kinley-path" to="/Kinley">
                 <img
-                  className="kinley-hero"
+                  className="about-hero-link"
                   src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573515965/Sized%20down%20for%20personal%20project/lqe8dp558bsyddxvqpyo.jpg"
                   alt="none"
                 />
@@ -78,10 +88,38 @@ export default class About extends Component {
             </div>
           </div>
           <div className="about-gallery-1">
-            <h1>bottom stuff</h1>
+            <div className="about-text-divs">
+              <div>
+                Meet my fist born. She's fierce like her mom and beautiful like
+                her mom, but she definately her own person. This little girl is
+                so smart and funny. She reads better thank I do and plays piano.
+                Click to see more.
+              </div>
+            </div>
+            <Link className="kinley-path" to="/Cora">
+              <img
+                className="about-hero-link"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444961/Sized%20down%20for%20personal%20project/fef6jb6p193oberlb8gy.jpg"
+                alt="none"
+              />
+            </Link>
           </div>
           <div className="about-gallery-1">
-            <h1>bottom stuff</h1>
+            <div>
+              <div className="about-text-divs">
+                Our rainbow baby Scarlett. Her spirit is something to admire.
+                She came into this world smiling and wakes up laughing. She
+                truley blesses us with her wonderful curiosity and happiness.
+                Click to see more smiles.
+              </div>
+            </div>
+            <Link className="kinlye-path" to="/Scarlett">
+              <img
+                className="about-hero-link"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445457/Sized%20down%20for%20personal%20project/oc8uaebggywcrr3flsi4.jpg"
+                alt="none"
+              />
+            </Link>
           </div>
         </div>
       </div>
