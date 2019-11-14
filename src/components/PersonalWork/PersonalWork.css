@@ -1,8 +1,16 @@
+.personal-project {
+  background-color: black;
+}
+
 .personal-main {
   background: url("Pool.jpg");
+
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100%;
   background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .personal-grid-container {
@@ -26,5 +34,4 @@
 }
 .personal-grid-image {
   width: 30vw;
-  margin-left: 25px;
 }

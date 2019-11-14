@@ -2,9 +2,10 @@ import React, { Component } from "react";
 
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
+import "./Lightbox.css";
 
 const images = [
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572972286/Sized%20down%20for%20personal%20project/v8zjun8wkcrxph0quzmp.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/hzeisjjdtqaliikyukvn.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1573140926/Sized%20down%20for%20personal%20project/lqqxzzctnrhetdeh8kyx.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/u9fhitmhvbmghkv2sdmn.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/l2jdnodfytdxphngpsjb.jpg",

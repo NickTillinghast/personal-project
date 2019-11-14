@@ -17,7 +17,7 @@ export default class Couples extends Component {
         <div>
           <img
             className="hero"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/c6araekzvokugj8oskjh.jpg"
+            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573700529/Sized%20down%20for%20personal%20project/rzcuw1ez82rrsn5a5ryb.jpg"
             alt="none"
           />
         </div>

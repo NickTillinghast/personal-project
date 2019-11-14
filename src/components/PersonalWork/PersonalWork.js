@@ -6,25 +6,16 @@ export default class PersonalWork extends Component {
     return (
       <div className="personal-project">
         <div className="personal-main">
-          <div>
+          <div className="personal-splash">
+            {/* <div className="personal-text"></div> */}
+          </div>
+          <div className="middle">
             <div>
-              <div className="personal-splash">
-                <div>
-                  <div className="personal-text"></div>
-                </div>
-                <div className="middle">
-                  <div>
-                    <div className="personal-grid-container"></div>
-                  </div>
-                </div>
-                <div className="personal-text">
-                  <h1>
-                    My Personal Work is subjective. I leave it to the viewers.
-                  </h1>
-                </div>
-                <div></div>
-              </div>
+              <div className="personal-grid-container"></div>
             </div>
+          </div>
+          <div className="personal-text">
+            <h1>My Personal Work is subjective. I leave it to the viewers.</h1>
           </div>
           <div>
             <div className="personal-grid-container">

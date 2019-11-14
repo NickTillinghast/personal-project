@@ -8,10 +8,17 @@ export default class About extends Component {
       <div className="about-main">
         <div className="about-middle">
           <div>
-            I really should not be too involved in the english language but here
-            I go. My Name is Nick Tillinghast and I take make images and eat
-            meatball, pizza, sandwitches. I love horror movies and wish I could
-            retire and run old theater showing unique movies of my choice.
+            <div classname="about-start">
+              My passion for photography came to me early in my life. My family
+              would document the crazy things that would happen in our family
+              restaurnt. In college my film days really came to life and I found
+              digital after that. After working with many other photographers I
+              honed my skills and became obessed with the real moments of life
+              and love. Photography for me is not just about pretty pictures but
+              also about feelings and time. Sometimes when I look at images I
+              can transport back to feelings and remember the love, excitement
+              and other feelings of life than make it so wonderful.
+            </div>
           </div>
         </div>
 
@@ -38,10 +45,12 @@ export default class About extends Component {
           <div className="about-bottom-border"></div>
           <div className="about-family">
             <div>
-              I love my family more than words. I love documenting my girls and
-              being a kid all over again with them. I owe everything to my
-              family without them I wouldn't be here and I can honestly say my
-              oldest daughter saved my life.
+              I love my family more than words. Being a dad to my girls has
+              given me new life and new muses. Plus the bonus of getting being a
+              kid all over again. I am very proud of the life that my wife and I
+              have built for each other. She's my rock and she also rocks. Below
+              are some links with tons of images if my family. Each memeber has
+              a page so please check it out.
             </div>
           </div>
         </div>
@@ -120,6 +129,19 @@ export default class About extends Component {
                 alt="none"
               />
             </Link>
+          </div>
+          <div>
+            <div className="about-bottom-text">
+              {/* <div>
+                I also have a serious food passion and will eat just about
+                anything once. My favorites are meatball pizza sandwitches and
+                REAL pie. I love horror movies and wish I could retire and run
+                old theater showing unique movies of my choice. A good time for
+                me just being lazy around the house and watching movies. I do
+                love nature and hiking when my knees allow. Adventure is out
+                there.
+              </div> */}
+            </div>
           </div>
         </div>
       </div>

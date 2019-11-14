@@ -5,6 +5,7 @@
   align-items: center;
   background-color: rgb(255, 255, 255);
   width: 100vw;
+  font-size: 30px;
 }
 .personal-box {
   background-color: transparent;
@@ -19,6 +20,7 @@
 .main-box {
   display: flex;
   margin-bottom: 50px;
+  /* width: 300px; */
 }
 .home-gallery-link {
   display: flex;
@@ -59,4 +61,7 @@
       rgb(255, 255, 255) 100%
     )
     0 0 100% 0/0 0 3px 0 stretch;
+}
+.lightbox-test {
+  width: 80vw;
 }

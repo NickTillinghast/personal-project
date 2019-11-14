@@ -18,12 +18,13 @@
 .grid-image {
   width: 400px;
   border-radius: 10px;
+  box-shadow: 0px 2px 16px;
 }
 /* .grid-item-6 {
     width: 500px;
   } */
 .hero {
-  width: 70vw;
+  width: 80vw;
   border-radius: 50px;
 }
 .hero {
