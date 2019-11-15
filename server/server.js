@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 // app.engine("handlebars", exphbs());
 // app.set("view engine", "handlebars");
-
+app.use(express.static(`${__dirname}/../build`));
 const {
   register,
   login,
@@ -101,6 +101,9 @@ app.post("/auth/contact", (req, res) => {
     tls: {
       rejectUnauthorized: false
     }
+  });
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../build/index.html"));
   });
 
   let mailOptions = {

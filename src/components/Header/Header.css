@@ -1,6 +1,6 @@
 .logo {
   width: 25%;
-  position: absolute;
+  position: static;
   float: left;
 }
 .header-links {
@@ -16,12 +16,12 @@
 }
 .header-links:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px rgba(143, 143, 143, 0.2);
+  box-shadow: 0 2px rgba(143, 143, 143, 0.2);
 }
 .header-links:active {
   transform: translate(-1px);
 
-  box-shadow: 0 3px 15px rgba(27, 24, 24, 0.2);
+  box-shadow: 0 3px 10px rgba(27, 24, 24, 0.2);
 }
 
 .header-main {

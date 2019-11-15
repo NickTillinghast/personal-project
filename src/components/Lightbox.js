@@ -5,18 +5,20 @@ import "react-image-lightbox/style.css";
 import "./Lightbox.css";
 
 const images = [
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/hzeisjjdtqaliikyukvn.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1573140926/Sized%20down%20for%20personal%20project/lqqxzzctnrhetdeh8kyx.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/u9fhitmhvbmghkv2sdmn.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/l2jdnodfytdxphngpsjb.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/kiq0fkmghcnfxttqcfen.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/xtjhlpzyfrqpmuchmdgs.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/thxcitvigyszmckcyul6.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/uld8inuay6x5qihapri3.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/xgxt11kt3bjn4rszxb3l.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/ytt5w0ttiwnittnaeeba.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970886/Sized%20down%20for%20personal%20project/pbeownjnsg9vqbyzgoxn.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970886/Sized%20down%20for%20personal%20project/oc9bq4vpfz4gj2ekj7cl.jpg"
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970886/Sized%20down%20for%20personal%20project/sctmd0e0knarennwn9ww.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/xgxt11kt3bjn4rszxb3l.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/uld8inuay6x5qihapri3.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/ytt5w0ttiwnittnaeeba.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970886/Sized%20down%20for%20personal%20project/oc9bq4vpfz4gj2ekj7cl.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/l2jdnodfytdxphngpsjb.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/wuh0mojnunpw2spf51pc.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/xzso5gnq7jxsqwjkqton.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/d1s2dqqmw2yoiaq8kwb9.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/kiq0fkmghcnfxttqcfen.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/ffxtfxfzkqiaojlwxpv9.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/thxcitvigyszmckcyul6.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/xtjhlpzyfrqpmuchmdgs.jpg"
 ];
 
 export default class Images extends Component {

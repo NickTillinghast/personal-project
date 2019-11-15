@@ -176,7 +176,7 @@ export default class Portfolio extends Component {
         <h1 className="port-text">Rustic Barn setting with an amazing view</h1>
         <div>
           <img
-            className="hero"
+            className="wedding-hero"
             src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241199/Sized%20down%20for%20personal%20project/xsvajxzywieyemkoqxuz.jpg"
             alt="none"
           />
@@ -332,10 +332,19 @@ export default class Portfolio extends Component {
             </div>
           </div>
         </div>
-        <div>
+        <h1 className="port-text">
+          My cousin found his soul mate and I had the honor to document their
+          special day.
+        </h1>
+        <div className="hero-3">
           <img
-            className="hero"
+            className="wedding-hero-3"
             src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573242277/Sized%20down%20for%20personal%20project/ygwcju9lakim6mlukx08.jpg"
+            alt="none"
+          />
+          <img
+            className="wedding-hero-3"
+            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573242277/Sized%20down%20for%20personal%20project/vxyu0qzsh1idcwixtg8r.jpg"
             alt="none"
           />
         </div>

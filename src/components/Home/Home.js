@@ -21,17 +21,14 @@ class Home extends Component {
 
         <div className="personal-box">
           <div>
-            <h2>This is MY website and I'll do what I want to.</h2>
-            <h2>
-              One of my favorite things is imagery. Sooooooo my website is gonna
-              be packed with imagery.
-            </h2>
-            <h2>
-              I really want my work to speak for itself. I love real moments and
-              true colors.
-            </h2>
+            Welcome to my website. I have always loved imagery and the emotion
+            that a still image can have. I pride myself on not only documenting
+            the special times that happen in life, but also capturing the
+            feelings of that time as well.Sooooooo my website is gonna be packed
+            with imagery. I really want my work to speak for itself. I love real
+            moments and true colors.
           </div>
-          <div className="main-bottom-border"></div>
+          <div className="main-bottom-border-1"></div>
 
           <div className="home-gallery-link">
             <div>
