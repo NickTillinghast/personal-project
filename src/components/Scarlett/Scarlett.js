@@ -18,7 +18,7 @@ export default class Scarlett extends Component {
             </div>
             <img
               className="scarlett-hero"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573668965/Sized%20down%20for%20personal%20project/drtrcjlkpjhui0oeo4et.jpg"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573829229/Sized%20down%20for%20personal%20project/gyw7zxs3u8dikxxfy2gw.jpg"
               alt="none"
             />
           </div>

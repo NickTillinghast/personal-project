@@ -28,3 +28,9 @@
 .amber-hero {
   width: 66vw;
 }
+.amber-blurb {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  padding: 30px;
+}

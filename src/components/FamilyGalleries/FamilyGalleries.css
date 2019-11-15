@@ -1,7 +1,8 @@
-.port-text {
-  font-size: 40px;
+.family-blurb {
+  font-size: 30px;
+  width: 70vw;
 }
-.grid-container {
+.family-container {
   display: grid;
   width: 100vw;
   grid-column-gap: 10px;
@@ -9,28 +10,34 @@
 
   padding: 30px;
 }
-.grid-item {
+.family-item {
   widows: 100%;
   height: 100%;
   object-fit: cover;
   padding: 1px;
 }
-.grid-image {
+.family-image {
   width: 400px;
   border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
+    0px 10px 20px rgba(0, 0, 0, 0.541);
 }
 /* .grid-item-6 {
     width: 500px;
   } */
-.hero {
+.family-hero {
   width: 70vw;
   border-radius: 50px;
-}
-.hero {
   padding: 10px;
 }
-.portfolio-text {
+
+.family-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+.family-hero-div {
+  display: flex;
+  justify-content: center;
 }

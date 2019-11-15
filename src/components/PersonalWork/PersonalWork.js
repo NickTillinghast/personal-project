@@ -7,7 +7,11 @@ export default class PersonalWork extends Component {
       <div className="personal-project">
         <div className="personal-main">
           <div className="personal-splash">
-            {/* <div className="personal-text"></div> */}
+            <img
+              className="personal-hero"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573604019/Sized%20down%20for%20personal%20project/dug7oq1866gyrvpzn28m.jpg"
+              alt="none"
+            />
           </div>
           <div className="middle">
             <div>
@@ -15,7 +19,10 @@ export default class PersonalWork extends Component {
             </div>
           </div>
           <div className="personal-text">
-            <h1>My Personal Work is subjective. I leave it to the viewers.</h1>
+            <div>
+              My Personal Work is subjective. I leave it to the viewers
+              interpretation.
+            </div>
           </div>
           <div>
             <div className="personal-grid-container">
@@ -177,6 +184,13 @@ export default class PersonalWork extends Component {
                 <img
                   className="personal-grid-image"
                   src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573604018/Sized%20down%20for%20personal%20project/htjn1govjf5pgdfsghyv.jpg"
+                  alt="none"
+                />
+              </div>
+              <div className="personal-grid-item">
+                <img
+                  className="personal-grid-image"
+                  src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573604019/Sized%20down%20for%20personal%20project/dbmqw703lnzqotfv7ovu.jpg"
                   alt="none"
                 />
               </div>

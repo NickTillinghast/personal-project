@@ -90,8 +90,8 @@ class AuthComponent extends Component {
           <div>
             <br />
             <div className="input-container">
-              <label>Username</label>
               <input
+                placeholder="Username"
                 value={username}
                 onChange={e =>
                   this.setState({
@@ -102,8 +102,9 @@ class AuthComponent extends Component {
             </div>
             <div className="input-container">
               <br />
-              <label>Email</label>
+
               <input
+                placeholder="Email"
                 type="email"
                 value={email}
                 onChange={e =>
@@ -115,8 +116,9 @@ class AuthComponent extends Component {
             </div>
             <div className="input-container">
               <br />
-              <label>Password</label>
+
               <input
+                placeholder="Password"
                 type="password"
                 value={password}
                 onChange={e =>

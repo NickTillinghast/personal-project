@@ -7,7 +7,7 @@ export default class Amber extends Component {
       <div>
         <div className="amber-top">
           <div className="amber-hero-div">
-            <div>
+            <div className="amber-blurb">
               <div className="amber-text">
                 My wife Amber is the strongest person I know. She has endured
                 the worst thing that can happen to a mother. The loss of her
@@ -36,7 +36,7 @@ export default class Amber extends Component {
           <div className="amber-vert">
             <img
               className="amber-plain"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444884/Sized%20down%20for%20personal%20project/iztdayadt5xtlmerb89l.jpg"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831516/Sized%20down%20for%20personal%20project/h3zh0etupj1t0xun8xlq.jpg"
               alt="none"
             />
           </div>
@@ -71,7 +71,7 @@ export default class Amber extends Component {
           <div className="amber-div">
             <img
               className="amber-plain"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573503931/Sized%20down%20for%20personal%20project/g5kfw0ju1qgevlfs5pti.jpg"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831595/Sized%20down%20for%20personal%20project/plzi0ajijqdyppo3zo0c.jpg"
               alt="none"
             />
           </div>
@@ -125,22 +125,46 @@ export default class Amber extends Component {
             />
           </div>
           <div className="amber-div">
-            <img className="amber-plain" src="" alt="none" />
+            <img
+              className="amber-plain"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831631/Sized%20down%20for%20personal%20project/ocljn6aw3i1dkebeum16.jpg"
+              alt="none"
+            />
           </div>
           <div className="amber-big">
-            <img className="amber-plain" src="" alt="none" />
+            <img
+              className="amber-plain"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831605/Sized%20down%20for%20personal%20project/h5oyre1yfqxfnp2llvvp.jpg"
+              alt="none"
+            />
           </div>
           <div className="amber-div">
-            <img className="amber-plain" src="" alt="none" />
+            <img
+              className="amber-plain"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831579/Sized%20down%20for%20personal%20project/xaejgekmhjdulrgvzell.jpg"
+              alt="none"
+            />
           </div>
           <div className="amber-vert">
-            <img className="amber-plain" src="" alt="none" />
+            <img
+              className="amber-plain"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831596/Sized%20down%20for%20personal%20project/ohuaczhfj8rosw7gkbtd.jpg"
+              alt="none"
+            />
           </div>
           <div className="amber-vert">
-            <img className="amber-plain" src="" alt="none" />
+            <img
+              className="amber-plain"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831599/Sized%20down%20for%20personal%20project/crfcju62lerry51b4ssl.jpg"
+              alt="none"
+            />
           </div>
           <div className="amber-vert">
-            <img className="amber-plain" src="" alt="none" />
+            <img
+              className="amber-plain"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573831532/Sized%20down%20for%20personal%20project/xcpxqhmytb4z9z5jpysh.jpg"
+              alt="none"
+            />
           </div>
         </div>
       </div>

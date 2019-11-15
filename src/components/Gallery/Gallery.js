@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Gallery.css";
 
 class Gallery extends Component {
   constructor(props) {
@@ -16,12 +17,14 @@ class Gallery extends Component {
           </a>
         </div>
         {window.location.hash === "#/ClientGalleries" ? null : (
-          <button
-            className="edit-button"
-            onClick={() => this.props.editStatus(this.props.gallery_id)}
-          >
-            Edit This Gallery
-          </button>
+          <div className="edit-button">
+            <button
+              className="edit-button"
+              onClick={() => this.props.editStatus(this.props.gallery_id)}
+            >
+              Edit This Gallery
+            </button>
+          </div>
         )}
       </div>
     );
