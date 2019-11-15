@@ -13,6 +13,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home-main">
+        {/* <div className="main-bottom-border-1"></div> */}
         <div className="main-box">
           <Images />
         </div>

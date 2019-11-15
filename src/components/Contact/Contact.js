@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./Contact.css";
+// import Message from "../Message/Message";
 
 export default class Contact extends Component {
   constructor() {
@@ -10,7 +11,13 @@ export default class Contact extends Component {
       lastName: "",
       email: "",
       phone: ""
+      // message: {
+      //   body: ""
+      // },
+      // submitting: false,
+      // error: false
     };
+    // this.onHandleChange = this.onHandleChange.bind(this);
   }
   firstHandleChange(value) {
     this.setState({
@@ -50,6 +57,13 @@ export default class Contact extends Component {
     });
     console.log(clientInfo);
   }
+
+  // onHandleChange(event) {
+  //   const name = event.target.getAttribute("name");
+  //   this.setState({
+  //     message: { ...this.state.message, [name]: event.target.value }
+  //   });
+  // }
   render() {
     return (
       <div className="contact-form-home">
@@ -67,7 +81,7 @@ export default class Contact extends Component {
             together.
           </div>
           <div className="contact-text-1">
-            I can get all nerdy about images so please feel free to ask
+            I love to get all nerdy about images so please feel free to ask
             anything.
           </div>
         </div>
@@ -119,6 +133,24 @@ export default class Contact extends Component {
               >
                 Send Your Info Via The Magic Of Internet
               </button>
+              {/* <form className="contact-form">
+                <div>
+                  <label htmlFor="to">To:</label>
+                  <input type="tel" name="to" id="to" />
+                </div>
+                <div>
+                  <label>Text Me Here:</label>
+                  <input
+                    className="contact-input-box"
+                    id="body"
+                    value={this.state.message.body}
+                    onChange={this.onHandleChange}
+                  />
+                </div>
+                <button className="message-send-button" type="submit">
+                  Send Text Message
+                </button>
+              </form> */}
             </div>
           </form>
         </div>

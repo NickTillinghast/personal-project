@@ -30,6 +30,7 @@ export default class Header extends Component {
               Home
             </Link>
           </ul>
+          {/* <div className="header-main"></div> */}
         </header>
       </div>
     );

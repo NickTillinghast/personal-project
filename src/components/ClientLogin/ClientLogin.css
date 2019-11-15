@@ -39,3 +39,7 @@
   border-color: rgb(212, 183, 151);
   border-style: solid;
 }
+.input-container {
+  /* display: flex;
+  background-color: blue; */
+}

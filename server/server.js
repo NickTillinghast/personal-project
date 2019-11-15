@@ -32,6 +32,10 @@ const {
 } = require("./controller/galleryController");
 
 const nodemailer = require("nodemailer");
+const client = require("twilio")(
+  process.env.TWILIO_ACCOUNT_SID,
+  process.env.TWILIO_AUTH_TOKEN
+);
 
 const { SESSION_SECRET, CONNECTION_STRING, SERVER_PORT } = process.env;
 const port = SERVER_PORT;
@@ -66,6 +70,23 @@ app.post("/auth/admin", admin);
 app.put("/auth/edit_gallery", editGallery);
 app.get("/auth/get_gallery_info/:id", getGallery);
 app.post("/auth/add_client_gallery", addGallery);
+// app.get("/auth/gallery_user", auth.usersOnly, userGalleries);
+// app.post("/auth/messages", (req, res) => {
+//   res.header('Content-Type', 'application/json');
+// client.messages
+// .create({
+//   from: process.env.TWILIO_PHONE_NUMBER,
+//   to: req.body.to,
+//   body: req.body.body
+// })
+// .then(() => {
+//   res.send(JSON.stringify({ success: true }));
+// })
+// .catch(err => {
+//   console.log(err);
+//   res.send(JSON.stringify({ success: false }));
+// });
+// })
 
 app.post("/auth/contact", (req, res) => {
   const { firstName, lastName, email, phone } = req.body;

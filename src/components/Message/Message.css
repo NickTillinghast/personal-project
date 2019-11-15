@@ -1,0 +1,23 @@
+/* .message-form {
+  text-align: left;
+  padding: 1em;
+}
+.message-form label {
+  display: block;
+}
+.message-form input,
+.message-form textarea {
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+.message-form div {
+  margin-bottom: 0.5em;
+}
+.message-form button {
+  font-size: 1em;
+  width: 100%;
+}
+.message-form.error {
+  outline: 2px solid #f00;
+} */

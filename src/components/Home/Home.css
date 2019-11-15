@@ -20,20 +20,12 @@
 .main-box {
   display: flex;
   margin-bottom: 50px;
-  /* width: 300px; */
 }
 .home-gallery-link {
   display: flex;
   padding: 20px;
-  /* align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 300px; */
 }
-/* .main-box {
-  display: flex;
-  justify-content: center;
-} */
+
 .lightbox-image {
   padding: 25px;
   width: 100vw;
@@ -62,6 +54,24 @@
     )
     0 0 100% 0/0 0 3px 0 stretch;
 }
-.lightbox-test {
-  width: 80vw;
+.main-bottom-border-1 {
+  width: 100vw;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(
+      to left,
+      rgb(255, 255, 255) 1%,
+      grey 20%,
+      rgb(0, 0, 0) 50%,
+      grey 80%,
+      rgb(255, 255, 255) 100%
+    )
+    0 0 100% 0/0 0 3px 0 stretch;
 }
+
+/* @media (max-width: 1200px) {
+  .home-main {
+  }
+} */

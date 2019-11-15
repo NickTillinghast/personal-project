@@ -87,45 +87,47 @@ class AuthComponent extends Component {
             }
           }}
         >
-          <br />
-          <div className="input-box">
-            <label>Username</label>
-            <input
-              value={username}
-              onChange={e =>
-                this.setState({
-                  username: e.target.value
-                })
-              }
-            />
-          </div>
-          <div className="input-container">
+          <div>
             <br />
-            <label>Email</label>
-            <input
-              type="email"
-              value={email}
-              onChange={e =>
-                this.setState({
-                  email: e.target.value
-                })
-              }
-            />
-          </div>
-          <div className="input-container">
-            <br />
-            <label>Password</label>
-            <input
-              type="password"
-              value={password}
-              onChange={e =>
-                this.setState({
-                  password: e.target.value
-                })
-              }
-            />
-            <br />
-            <br />
+            <div className="input-container">
+              <label>Username</label>
+              <input
+                value={username}
+                onChange={e =>
+                  this.setState({
+                    username: e.target.value
+                  })
+                }
+              />
+            </div>
+            <div className="input-container">
+              <br />
+              <label>Email</label>
+              <input
+                type="email"
+                value={email}
+                onChange={e =>
+                  this.setState({
+                    email: e.target.value
+                  })
+                }
+              />
+            </div>
+            <div className="input-container">
+              <br />
+              <label>Password</label>
+              <input
+                type="password"
+                value={password}
+                onChange={e =>
+                  this.setState({
+                    password: e.target.value
+                  })
+                }
+              />
+              <br />
+              <br />
+            </div>
             <button
               className="reg-button"
               onClick={e => {
