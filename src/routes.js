@@ -15,6 +15,7 @@ import Portraits from "./components/Portraits/Portraits";
 import Cora from "./components/Cora/Cora";
 import Scarlett from "./components/Scarlett/Scarlett";
 import Amber from "./components/Amber/Amber";
+import Footer from "./components/Footer/Footer";
 
 export default (
   <Switch>
@@ -33,5 +34,6 @@ export default (
     <Route path="/Cora" component={Cora} />
     <Route path="/Scarlett" component={Scarlett} />
     <Route path="/Amber" component={Amber} />
+    <Route path="/Footer" component={Footer} />
   </Switch>
 );

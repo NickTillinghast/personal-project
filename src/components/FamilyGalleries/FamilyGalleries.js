@@ -5,20 +5,19 @@ export default class FamilyGalleries extends Component {
   render() {
     return (
       <div>
-        <div></div>
         <div className="middle">
-          <div>
-            <div className="family-container"></div>
-          </div>
+          <div className="family-container"></div>
         </div>
         <div className="family-text">
-          <h1 className="family-blurb">
-            Of course I photograph families since I am a proud family man. Kids
-            to me are more fun to be around than adults. Kids are in the moment
-            and are so annimated which for a photographer are great attributes.
-            Families are AWESOME. Family sessions are some of my favorite to
-            photograph. They are always fun and full of suprises.
-          </h1>
+          <div className="family-text">
+            <h1 className="family-blurb">
+              Of course I photograph families since I am a proud family man.
+              Kids to me are more fun to be around than adults. Kids are in the
+              moment and are so annimated which for a photographer are great
+              attributes. Families are AWESOME. Family sessions are some of my
+              favorite to photograph. They are always fun and full of suprises.
+            </h1>
+          </div>
         </div>
         <div className="family-hero-div">
           <div>
