@@ -81,7 +81,7 @@ export default class About extends Component {
             <div className="about-text-divs">
               <div>
                 There's a huge part of my life that most people do not know
-                about me. My wife and I have endoured what is in my opinion one
+                about me. My wife and I have endured what is in my opinion one
                 of the worst things that can happen to a couple. More info here
                 if you are willing. Possible tears warning.
               </div>
