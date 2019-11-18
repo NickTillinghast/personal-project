@@ -234,7 +234,11 @@ export default class Couples extends Component {
           </div>
         </div>
         <div>
-          <img className="hero" src="" alt="none" />
+          <img
+            className="hero"
+            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096026/Sized%20down%20for%20personal%20project/i7z4hpwtakrgtglvunwc.jpg"
+            alt="none"
+          />
         </div>
         <div className="second-grif">
           <div className="grid-container">

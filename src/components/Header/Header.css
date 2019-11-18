@@ -42,9 +42,7 @@
     )
     0 0 100% 0/0 0 3px 0 stretch;
 }
-/* @media (max-width: 1200) {
-  .logo {
-    width: 25%;
-    float: left;
+@media (max-width: 900) {
+  .header-links {
   }
-} */
+}

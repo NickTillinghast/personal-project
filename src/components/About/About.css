@@ -62,12 +62,8 @@
   color: rgb(97, 97, 97);
 }
 
-.story {
-  background-color: rgb(189, 82, 189);
-}
 .about-bottom {
   width: 100%;
-  height: 200px;
   background-color: transparent;
 }
 .about-hero-link {
@@ -99,4 +95,14 @@
   border-width: 6px;
   border-color: rgb(255, 245, 216);
   padding: 20px;
+}
+@media (max-width: 1200px) {
+  .about-middle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 650) {
+  .about-middle {
+    font-size: 10px;
+  }
 }

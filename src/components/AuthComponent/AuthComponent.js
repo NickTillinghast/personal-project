@@ -88,7 +88,6 @@ class AuthComponent extends Component {
           }}
         >
           <div>
-            <br />
             <div className="input-container">
               <input
                 placeholder="Username"
@@ -101,8 +100,6 @@ class AuthComponent extends Component {
               />
             </div>
             <div className="input-container">
-              <br />
-
               <input
                 placeholder="Email"
                 type="email"
@@ -115,8 +112,6 @@ class AuthComponent extends Component {
               />
             </div>
             <div className="input-container">
-              <br />
-
               <input
                 placeholder="Password"
                 type="password"
@@ -127,8 +122,6 @@ class AuthComponent extends Component {
                   })
                 }
               />
-              <br />
-              <br />
             </div>
             <button
               className="reg-button"
@@ -139,7 +132,7 @@ class AuthComponent extends Component {
               Register
             </button>
           </div>
-          <br />
+
           <button
             className="reg-button"
             onClick={e => {
@@ -148,8 +141,7 @@ class AuthComponent extends Component {
           >
             login
           </button>
-          <br />
-          <br />
+
           <button
             className="reg-button"
             onClick={e => {

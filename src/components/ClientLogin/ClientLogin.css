@@ -1,12 +1,9 @@
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  /* height: 400px; */
   width: 100vw;
   background-color: rgb(255, 255, 255);
-  /* margin-top: 450px; */
 }
 
 .form-text {
@@ -16,6 +13,7 @@
     "Lucida Sans", Arial, sans-serif;
   font-size: 21px;
   font-weight: 700;
+  padding: 30px;
 }
 .circles {
   display: flex;
@@ -29,17 +27,18 @@
 }
 
 .auth-container {
+  display: flex;
+  justify-content: space-evenly;
   padding: 30px;
   text-align: center;
   border-radius: 30px;
   font-size: 20px;
-  width: 900px;
+  width: 40vw;
   background-color: rgb(253, 239, 239);
   border-width: 5px;
   border-color: rgb(212, 183, 151);
   border-style: solid;
 }
 .input-container {
-  /* display: flex;
-  background-color: blue; */
+  padding: 5px;
 }

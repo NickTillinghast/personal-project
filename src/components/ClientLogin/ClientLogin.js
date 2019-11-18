@@ -16,18 +16,13 @@ class ClientLogin extends Component {
     return (
       <div className="form">
         <div className="form-text">
-          <br />
-          <br />
-          <br />
-          <br />
           Please log in and view your lovely photos. You will be asisted through
           the viewing process and have instructions on how to download your
           images.
         </div>
-        <br />
-        <br />
+
         <AuthComponent />
-        <br />
+
         <div className="circles">
           <div className="form-bottom">
             <img
