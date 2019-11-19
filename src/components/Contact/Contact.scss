@@ -1,0 +1,71 @@
+.contact-form-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+}
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  width: 67vw;
+  background-color: rgb(211, 211, 211);
+  margin: 0 auto;
+  border-style: solid;
+  border-width: medium;
+  border-color: rgba(0, 0, 0, 0.822);
+  border-radius: 20px;
+}
+
+.form-box {
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(211, 211, 211);
+  width: 50vw;
+}
+.contact-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-image {
+  padding: 40px;
+  width: 60vw;
+  border-radius: 65px;
+}
+
+.contact-input-box {
+  border-radius: 10px;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80vw;
+}
+.contact-text-1 {
+  padding: 20px;
+}
+.send-button {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.message-send-button {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}

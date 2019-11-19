@@ -4,15 +4,12 @@ const app = express();
 const session = require("express-session");
 const massive = require("massive");
 const bodyParser = require("body-parser");
-// const exphbs = require("express-handlebars");
 const path = require("path");
 
-// const auth = require("./middleware/authMiddleware");
+const auth = require("./middleware/authMiddleware");
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-// app.engine("handlebars", exphbs());
-// app.set("view engine", "handlebars");
 app.use(express.static(`${__dirname}/../build`));
 const {
   register,
@@ -58,7 +55,7 @@ massive(CONNECTION_STRING).then(db => {
   console.log("db connected");
   app.set("db", db);
 });
-// app.get("/auth/get_user", getUser);
+
 app.post("/auth/register", register);
 app.post("/auth/login", login);
 app.delete("/auth/logout", logout);
@@ -70,7 +67,7 @@ app.post("/auth/admin", admin);
 app.put("/auth/edit_gallery", editGallery);
 app.get("/auth/get_gallery_info/:id", getGallery);
 app.post("/auth/add_client_gallery", addGallery);
-// app.get("/auth/gallery_user", auth.usersOnly, userGalleries);
+app.get("/auth/gallery_user", auth.usersOnly, userGalleries);
 // app.post("/auth/messages", (req, res) => {
 //   res.header('Content-Type', 'application/json');
 // client.messages

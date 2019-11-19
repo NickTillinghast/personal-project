@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./Scarlett.css";
+
+import "./Scarlett.scss";
 
 export default class Scarlett extends Component {
   render() {
@@ -7,6 +8,11 @@ export default class Scarlett extends Component {
       <div>
         <div>
           <div className="scarlett-hero-div">
+            <img
+              className="scarlett-hero"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573829229/Sized%20down%20for%20personal%20project/gyw7zxs3u8dikxxfy2gw.jpg"
+              alt="none"
+            />
             <div className="scarlett-text">
               <div>
                 This is my Rainbow baby who is seriously sent from heaven as a
@@ -16,11 +22,6 @@ export default class Scarlett extends Component {
                 a daily.
               </div>
             </div>
-            <img
-              className="scarlett-hero"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573829229/Sized%20down%20for%20personal%20project/gyw7zxs3u8dikxxfy2gw.jpg"
-              alt="none"
-            />
           </div>
         </div>
         <div className="scarlett-container">

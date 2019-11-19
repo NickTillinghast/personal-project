@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "./EditGallery.css";
+// import "./EditGallery.css";
+import "./EditGallery.scss";
 
 export default class EditGallery extends Component {
   constructor(props) {

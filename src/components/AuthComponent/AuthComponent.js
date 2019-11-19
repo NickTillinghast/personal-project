@@ -23,6 +23,7 @@ class AuthComponent extends Component {
       this.state.password === "" ||
       this.state.email === ""
     ) {
+      alert("please register");
       e.preventDefault();
     } else {
       e.preventDefault();
@@ -42,6 +43,7 @@ class AuthComponent extends Component {
       this.state.password === "" ||
       this.state.email === ""
     ) {
+      alert("please login");
       e.preventDefault();
     } else {
       e.preventDefault();
@@ -50,6 +52,7 @@ class AuthComponent extends Component {
         email,
         password
       });
+      // if (!loggedInUser.data ? <h1>Please hire me to get some galleries in here</h1> :
       this.props.setUser(loggedInUser.data);
       this.props.history.push("/ClientGalleries");
     }
@@ -60,6 +63,7 @@ class AuthComponent extends Component {
       this.state.password === "" ||
       this.state.email === ""
     ) {
+      alert("this is for admins only");
       e.preventDefault();
     } else {
       e.preventDefault();

@@ -1,4 +1,4 @@
-/* .logo {
+.logo {
   width: 25%;
   position: static;
   float: left;
@@ -18,11 +18,9 @@
 .header-links:hover {
   transform: translateY(-3px);
   box-shadow: 0 2px rgba(143, 143, 143, 0.2);
-  backface-visibility: hidden;
 }
 .header-links:active {
   transform: translate(-3px);
-
   box-shadow: 0 3px 10px rgba(27, 24, 24, 0.2);
 }
 
@@ -55,8 +53,8 @@
 }
 .tabs {
   /* display: none; */
-/* }
+}
 @media (max-width: 900) {
   .header-links {
   }
-}  */
+}

@@ -1,0 +1,26 @@
+.portfolio-container {
+  width: 100%;
+  min-height: 60vh;
+}
+.portfolio-container > div {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: fade-in 0.3s linear 1 forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.portfolio-container > div > div {
+  width: 100%;
+}

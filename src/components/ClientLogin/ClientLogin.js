@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import AuthComponent from "../AuthComponent/AuthComponent";
+import "./ClientLogin.scss";
 
-import "./ClientLogin.css";
+// import "./ClientLogin.css";
 
 class ClientLogin extends Component {
   constructor(props) {

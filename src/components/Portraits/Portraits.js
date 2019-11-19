@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./Portraits.css";
+import "./Portraits.scss";
+// import "./Portraits.css";
 
 export default class Couples extends Component {
   render() {
@@ -173,125 +174,276 @@ export default class Couples extends Component {
           </div>
         </div>
         <div>
-          <img className="hero" src="" alt="none" />
-        </div>
-        <div className="second-grif">
-          <div className="grid-container">
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-            <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
-            </div>
-          </div>
-        </div>
-        <div>
           <img
             className="hero"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096026/Sized%20down%20for%20personal%20project/i7z4hpwtakrgtglvunwc.jpg"
+            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574101664/Sized%20down%20for%20personal%20project/wmlq5axwysaqn5kgohrs.jpg"
             alt="none"
           />
         </div>
         <div className="second-grif">
           <div className="grid-container">
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096342/Sized%20down%20for%20personal%20project/iwixbjmht7j1smohved5.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096324/Sized%20down%20for%20personal%20project/ssovct34zoenne3pzejk.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096348/Sized%20down%20for%20personal%20project/yijoliyzinb5fvhu7i02.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096399/Sized%20down%20for%20personal%20project/oqh5dzop54tzhuoywizb.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096422/Sized%20down%20for%20personal%20project/uh2g7njqnk8jepvtmomq.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096460/Sized%20down%20for%20personal%20project/kymqkyqv962e5b0pcler.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096363/Sized%20down%20for%20personal%20project/lt18y9ol8jki1j4mnal5.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096307/Sized%20down%20for%20personal%20project/m1xjtlmp1ha7nfyybfdt.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096314/Sized%20down%20for%20personal%20project/owmbemlt18kufxmap8zb.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096463/Sized%20down%20for%20personal%20project/nc1jbspdn4lcgl1xsui1.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096466/Sized%20down%20for%20personal%20project/xxjbweheqy2peh7bu6li.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096491/Sized%20down%20for%20personal%20project/ya2itk5utvci1pk3uepz.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574097274/Sized%20down%20for%20personal%20project/ygsf0qcx45lpo9jivvgy.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574097269/Sized%20down%20for%20personal%20project/rvfa13clkzlkcj5tleaz.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574097265/Sized%20down%20for%20personal%20project/ztcbwwlrqc6by5brl0ut.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574097276/Sized%20down%20for%20personal%20project/k55hs9mqv37rkgdw52lu.jpg"
+                alt="none"
+              />
             </div>
             <div className="grid-item">
-              <img className="grid-image" src="" alt="none" />
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574097216/Sized%20down%20for%20personal%20project/ygowcdbvgab50xmp095j.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574097224/Sized%20down%20for%20personal%20project/z7amwrrss2fxtxo64apx.jpg"
+                alt="none"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <img
+            className="hero"
+            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574101489/Sized%20down%20for%20personal%20project/w1s8tqxh3vtnvm01msu7.jpg"
+            alt="none"
+          />
+        </div>
+        <div className="second-grif">
+          <div className="grid-container">
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095879/Sized%20down%20for%20personal%20project/x7pg28pzpoiz4mqm8ree.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095888/Sized%20down%20for%20personal%20project/qyyk2aebzzvr3hajwme8.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095885/Sized%20down%20for%20personal%20project/j7ziwos8lt18grrha3l9.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095904/Sized%20down%20for%20personal%20project/mewagzqijmh2nualaodu.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095907/Sized%20down%20for%20personal%20project/w4qocaojf2krqmd6mglg.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095920/Sized%20down%20for%20personal%20project/ape3qqxx4ib3ulwvybs4.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095955/Sized%20down%20for%20personal%20project/cappz9mlbkgirrsorx6h.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095944/Sized%20down%20for%20personal%20project/zcqjojhn7wsufbc08hwd.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095956/Sized%20down%20for%20personal%20project/u8fvhexumoaey2ixgn4b.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095967/Sized%20down%20for%20personal%20project/kh5imqvmfgznfnhs7fln.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096013/Sized%20down%20for%20personal%20project/b26w9dinqjxecfofto0c.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574095982/Sized%20down%20for%20personal%20project/fgihgt8kbhhewmbagi4t.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096003/Sized%20down%20for%20personal%20project/new6zd56bghqppgs2jjo.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096034/Sized%20down%20for%20personal%20project/swfzh2o0tzcuz6webzhp.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096008/Sized%20down%20for%20personal%20project/asd4a1c6ynskycqn4wre.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096032/Sized%20down%20for%20personal%20project/pz36ilebsklsraqrklic.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096013/Sized%20down%20for%20personal%20project/cg8tlzqgaaftljladk12.jpg"
+                alt="none"
+              />
+            </div>
+            <div className="grid-item">
+              <img
+                className="grid-image"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574096031/Sized%20down%20for%20personal%20project/voewchccefyc7vym9xtt.jpg"
+                alt="none"
+              />
             </div>
           </div>
         </div>

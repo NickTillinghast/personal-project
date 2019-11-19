@@ -42,7 +42,7 @@ export default class Images extends Component {
         >
           <img
             className="lightbox-image"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573245646/No%20Db%20images/high%20res/vqw1nrm25zp4fx7h7ziu.jpg"
+            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574124176/Sized%20down%20for%20personal%20project/gyk837ykdtejlt7rxrka.jpg"
             alt="none"
           />
         </button>

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "./Contact.css";
+// import "./Contact.css";
 // import Message from "../Message/Message";
+import "./Contact.scss";
 
 export default class Contact extends Component {
   constructor() {

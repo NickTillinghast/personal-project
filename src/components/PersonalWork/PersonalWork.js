@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./PersonalWork.css";
+// import "./PersonalWork.css";
+import "./PersonalWork.scss";
 
 export default class PersonalWork extends Component {
   render() {

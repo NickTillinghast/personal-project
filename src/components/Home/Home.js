@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Images from "../Lightbox";
 
 import "react-image-lightbox/style.css";
-import "./Home.css";
+// import "./Home.css";
+import "./Home.scss";
 
 class Home extends Component {
   constructor(props) {
@@ -46,7 +47,7 @@ class Home extends Component {
             </div>
             <div>
               <div className="gallery-1">
-                <a href="https://nicktillinghastphotography.pixieset.com/davidandalexisentire/">
+                <a href="https://nicktillinghastphotography.pixieset.com/davidandalexisslideshow/">
                   <img
                     className="gal-1-image"
                     src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/ffxtfxfzkqiaojlwxpv9.jpg"

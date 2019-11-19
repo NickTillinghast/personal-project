@@ -21,14 +21,10 @@
   display: flex;
   margin-bottom: 50px;
 }
-.home-gallery-link {
-  display: flex;
-  padding: 20px;
-}
 
 .lightbox-image {
   padding: 25px;
-  width: 100vw;
+  width: 85vw;
 }
 .gallery-1 {
   display: flex;
@@ -83,7 +79,19 @@
 .home-gallery-link {
   width: 100vw;
   display: flex;
-  flex-direction: row;
+  padding: 20px;
 
+  flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
+}
+@media (max-width: 1100px) {
+  .home-gallery-link {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .home-main {
+    font-size: 18px;
+  }
 }

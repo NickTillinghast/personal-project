@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import "./Footer.css";
+// import "./Footer.css";
+import "./Footer.scss";
+
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./About.css";
+// import "./About.css";
+import "./About.scss";
 
 export default class About extends Component {
   render() {
@@ -11,13 +12,16 @@ export default class About extends Component {
             <div classname="about-start">
               My passion for photography came to me early in my life. My family
               would document the crazy things that would happen in our family
-              restaurnt. In college my film days really came to life and I found
-              digital after that. After working with many other photographers I
-              honed my skills and became obessed with the real moments of life
-              and love. Photography for me is not just about pretty pictures but
-              also about feelings and time. Sometimes when I look at images I
-              can transport back to feelings and remember the love, excitement
-              and other feelings of life than make it so wonderful.
+              restaurnt. In college I took film courses and fell in love with
+              the medium. I was fascinated with all the cool things that can be
+              done in photography and loved conveying moments in a still image.
+              It didn't take long to get into the photographer network and after
+              working with many other photographers I honed my skills and became
+              obessed with the real moments of life and love. Photography for me
+              is not just about pretty pictures but also about feelings and
+              time. Sometimes when I look at images I can transport back to
+              feelings and remember the love, excitement and other feelings of
+              life than make it so wonderful.
             </div>
           </div>
         </div>
@@ -69,6 +73,7 @@ export default class About extends Component {
                 alt=""
               />
             </Link>
+
             <img
               className="about-me-image"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573523566/Sized%20down%20for%20personal%20project/slvaylltgtkncds1o2jk.jpg"
