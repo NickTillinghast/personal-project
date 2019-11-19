@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Images from "../Lightbox";
-
 import "react-image-lightbox/style.css";
-// import "./Home.css";
 import "./Home.scss";
 
 class Home extends Component {
@@ -34,7 +32,7 @@ class Home extends Component {
           <div className="home-gallery-link">
             <div>
               <div>
-                <div className="gallery-1">
+                <div className="home-gallery-1">
                   <a href="https://nicktillinghastphotography.pixieset.com/eliseandjames/">
                     <img
                       className="gal-1-image"
@@ -42,11 +40,12 @@ class Home extends Component {
                       alt="none"
                     />
                   </a>
+                  <div className="home-links">Full Gallery Here</div>
                 </div>
               </div>
             </div>
             <div>
-              <div className="gallery-1">
+              <div className="home-gallery-1">
                 <a href="https://nicktillinghastphotography.pixieset.com/davidandalexisslideshow/">
                   <img
                     className="gal-1-image"
@@ -54,10 +53,11 @@ class Home extends Component {
                     alt="none"
                   />
                 </a>
+                <div className="home-links">Full Gallery Here</div>
               </div>
             </div>
             <div>
-              <div className="gallery-1">
+              <div className="home-gallery-1">
                 <a href="https://nicktillinghastphotography.pixieset.com/delaneyfamily/">
                   <img
                     className="gal-1-image"
@@ -65,6 +65,7 @@ class Home extends Component {
                     alt="none"
                   />
                 </a>
+                <div className="home-links">Full Gallery Here</div>
               </div>
             </div>
           </div>

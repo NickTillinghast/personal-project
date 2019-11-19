@@ -8,13 +8,175 @@ export default class Portfolio extends Component {
     return (
       <div className="about-main">
         <div className="top">
-          <div className="video-box">
-            <video className="video" autoPlay loop muted preload>
-              <source src={snowhouse} type="video/mp4" />
-            </video>
-            <div className="port-text">
-              Winter Wonderland Wedding. Love can keep you warm any time of
-              season
+          <div>
+            <div className="barn-main">
+              <div className="wedding-port-text">
+                Rustic Barn setting with an amazing view. Kristen and Dustin
+                Superstition Mountain Wedding.
+              </div>
+              <div>
+                <img
+                  className="wedding-hero"
+                  src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574117101/Sized%20down%20for%20personal%20project/ly7eehi9iak4tdpv0ttj.jpg"
+                  alt="none"
+                />
+              </div>
+            </div>
+            <div className="second-grif">
+              <div className="wedding-grid-container">
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241186/Sized%20down%20for%20personal%20project/dzgdvlcofujjepfxj4xp.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241186/Sized%20down%20for%20personal%20project/sjvnhjbovzwksc8yvppv.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241188/Sized%20down%20for%20personal%20project/xh4vydvzaeuowfe6qteq.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241188/Sized%20down%20for%20personal%20project/nln7hfysrsbavdw6jjrl.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241189/Sized%20down%20for%20personal%20project/nqis5vntsnqqqpotsf9f.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241189/Sized%20down%20for%20personal%20project/okjjgrorvhjalk8drtqb.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241186/Sized%20down%20for%20personal%20project/yewxpcaxukm124jstrdz.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241190/Sized%20down%20for%20personal%20project/gqe3mnq1elpdn705nsid.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241189/Sized%20down%20for%20personal%20project/crngz1hy4vkvqm0head4.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241190/Sized%20down%20for%20personal%20project/nd93ej3iopg0vi4znfif.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241190/Sized%20down%20for%20personal%20project/viq9uoe1s3uh7e3kmwc4.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241196/Sized%20down%20for%20personal%20project/uvrlcdbg4djqjhgzkeak.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241198/Sized%20down%20for%20personal%20project/bmpuozdwo9wdyhvdu0qc.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241198/Sized%20down%20for%20personal%20project/nhwvha7sb5x9my56wvel.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241188/Sized%20down%20for%20personal%20project/xbdub7ukpxe2tn7wkgez.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241198/Sized%20down%20for%20personal%20project/dzhqmlycvzo94n5aiqz3.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241199/Sized%20down%20for%20personal%20project/swf0h76jbji3dmpk3zti.jpg"
+                    alt="none"
+                  />
+                </div>
+
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241201/Sized%20down%20for%20personal%20project/mbl1dlxf3dfwexlofwep.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241203/Sized%20down%20for%20personal%20project/umztanffvsup77owuiau.jpg"
+                    alt="none"
+                  />
+                </div>
+                <div>
+                  <img
+                    className="wedding-grid-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241203/Sized%20down%20for%20personal%20project/rmwtycecflal5ccibty6.jpg"
+                    alt="none"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="winter-hero">
+            <div className="video-box">
+              <video className="video" autoPlay loop muted preload>
+                <source src={snowhouse} type="video/mp4" />
+              </video>
+              <div className="wedding-port-text">
+                Winter Wonderland Wedding. Love can keep you warm any time of
+                season.
+              </div>
             </div>
           </div>
           <div className="portfolio-text"></div>
@@ -166,174 +328,25 @@ export default class Portfolio extends Component {
             </div>
           </div>
         </div>
-        <h1 className="port-text">Rustic Barn setting with an amazing view</h1>
         <div>
-          <img
-            className="wedding-hero"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574117101/Sized%20down%20for%20personal%20project/ly7eehi9iak4tdpv0ttj.jpg"
-            alt="none"
-          />
-        </div>
-        <div className="second-grif">
-          <div className="wedding-grid-container">
-            <div>
+          <div className="hero-3">
+            <div className="wedding-port-text">
+              My cousin found his soul mate and I had the honor to document
+              their special day.
+            </div>
+            <div className="cousin-hero">
               <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241186/Sized%20down%20for%20personal%20project/dzgdvlcofujjepfxj4xp.jpg"
+                className="wedding-hero-3"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573242277/Sized%20down%20for%20personal%20project/ygwcju9lakim6mlukx08.jpg"
                 alt="none"
               />
-            </div>
-            <div>
               <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241186/Sized%20down%20for%20personal%20project/sjvnhjbovzwksc8yvppv.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241188/Sized%20down%20for%20personal%20project/xh4vydvzaeuowfe6qteq.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241188/Sized%20down%20for%20personal%20project/nln7hfysrsbavdw6jjrl.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241189/Sized%20down%20for%20personal%20project/nqis5vntsnqqqpotsf9f.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241189/Sized%20down%20for%20personal%20project/okjjgrorvhjalk8drtqb.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241186/Sized%20down%20for%20personal%20project/yewxpcaxukm124jstrdz.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241190/Sized%20down%20for%20personal%20project/gqe3mnq1elpdn705nsid.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241189/Sized%20down%20for%20personal%20project/crngz1hy4vkvqm0head4.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241190/Sized%20down%20for%20personal%20project/nd93ej3iopg0vi4znfif.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241190/Sized%20down%20for%20personal%20project/viq9uoe1s3uh7e3kmwc4.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241196/Sized%20down%20for%20personal%20project/uvrlcdbg4djqjhgzkeak.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241198/Sized%20down%20for%20personal%20project/bmpuozdwo9wdyhvdu0qc.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241198/Sized%20down%20for%20personal%20project/nhwvha7sb5x9my56wvel.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241188/Sized%20down%20for%20personal%20project/xbdub7ukpxe2tn7wkgez.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241198/Sized%20down%20for%20personal%20project/dzhqmlycvzo94n5aiqz3.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241199/Sized%20down%20for%20personal%20project/swf0h76jbji3dmpk3zti.jpg"
-                alt="none"
-              />
-            </div>
-
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241201/Sized%20down%20for%20personal%20project/mbl1dlxf3dfwexlofwep.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241203/Sized%20down%20for%20personal%20project/umztanffvsup77owuiau.jpg"
-                alt="none"
-              />
-            </div>
-            <div>
-              <img
-                className="wedding-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241203/Sized%20down%20for%20personal%20project/rmwtycecflal5ccibty6.jpg"
+                className="wedding-hero-3"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573242277/Sized%20down%20for%20personal%20project/vxyu0qzsh1idcwixtg8r.jpg"
                 alt="none"
               />
             </div>
           </div>
-        </div>
-        <h1 className="port-text">
-          My cousin found his soul mate and I had the honor to document their
-          special day.
-        </h1>
-        <div className="hero-3">
-          <img
-            className="wedding-hero-3"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573242277/Sized%20down%20for%20personal%20project/ygwcju9lakim6mlukx08.jpg"
-            alt="none"
-          />
-          <img
-            className="wedding-hero-3"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573242277/Sized%20down%20for%20personal%20project/vxyu0qzsh1idcwixtg8r.jpg"
-            alt="none"
-          />
         </div>
         <div className="second-grif">
           <div className="wedding-grid-container">

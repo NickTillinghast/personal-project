@@ -7,7 +7,7 @@ export default class About extends Component {
   render() {
     return (
       <div className="about-main">
-        <div className="about-middle">
+        <div className="about-start">
           <div>
             <div classname="about-start">
               My passion for photography came to me early in my life. My family
@@ -47,14 +47,16 @@ export default class About extends Component {
             </div>
           </div>
           <div className="about-bottom-border"></div>
-          <div className="about-family">
-            <div>
-              I love my family more than words. Being a dad to my girls has
-              given me new life and new muses. Plus the bonus of getting being a
-              kid all over again. I am very proud of the life that my wife and I
-              have built for each other. She's my rock and she also rocks. Below
-              are some links with tons of images if my family. Each memeber has
-              a page so please check it out.
+          <div>
+            <div className="about-family">
+              <div>
+                I love my family more than words. Being a dad to my girls has
+                given me new life and new muses. Plus the bonus of getting being
+                a kid all over again. I am very proud of the life that my wife
+                and I have built for each other. She's my rock and she also
+                rocks. Below are some links with tons of images if my family.
+                Each memeber has a page so please check it out.
+              </div>
             </div>
           </div>
         </div>
@@ -66,17 +68,27 @@ export default class About extends Component {
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241184/Sized%20down%20for%20personal%20project/d6usqvhwwb8artzwadoq.jpg"
               alt=""
             />
-            <Link className="kinlye-path" to="/Amber">
-              <img
-                className="about-me-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445434/Sized%20down%20for%20personal%20project/defech5lzysmlxlgzopy.jpg"
-                alt=""
-              />
+            <img
+              className="about-me-image-2"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574194408/Sized%20down%20for%20personal%20project/hnr7enbh0jsg02h5ldqz.jpg"
+              alt="none"
+            />
+          </div>
+        </div>
+        <div className="about-bottom-border-2"></div>
+        <div className="about-amber">
+          <div>
+            This is my rock. She's been with me through it all. Everyone I know
+            becomes friends with my wife instantly. Click her image to get to
+            know more about this beauty.
+            <Link className="amber-path" to="/Amber">
+              Here
             </Link>
-
+          </div>
+          <div>
             <img
               className="about-me-image"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573523566/Sized%20down%20for%20personal%20project/slvaylltgtkncds1o2jk.jpg"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445434/Sized%20down%20for%20personal%20project/defech5lzysmlxlgzopy.jpg"
               alt=""
             />
           </div>
@@ -89,16 +101,19 @@ export default class About extends Component {
                 about me. My wife and I have endured what is in my opinion one
                 of the worst things that can happen to a couple. More info here
                 if you are willing. Possible tears warning.
+                <Link className="kinley-path" to="/Kinley">
+                  Click to read more
+                </Link>
               </div>
             </div>
             <div>
-              <Link className="kinley-path" to="/Kinley">
+              <div>
                 <img
                   className="about-hero-link"
                   src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573515965/Sized%20down%20for%20personal%20project/lqe8dp558bsyddxvqpyo.jpg"
                   alt="none"
                 />
-              </Link>
+              </div>
             </div>
           </div>
           <div className="about-gallery-1">
@@ -108,15 +123,18 @@ export default class About extends Component {
                 her mom, but she definately her own person. This little girl is
                 so smart and funny. She reads better thank I do and plays piano.
                 Click to see more.
+                <Link className="kinley-path" to="/Cora">
+                  Click to see More
+                </Link>
               </div>
             </div>
-            <Link className="kinley-path" to="/Cora">
+            <div>
               <img
                 className="about-hero-link"
                 src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444961/Sized%20down%20for%20personal%20project/fef6jb6p193oberlb8gy.jpg"
                 alt="none"
               />
-            </Link>
+            </div>
           </div>
           <div className="about-gallery-1">
             <div>
@@ -125,28 +143,21 @@ export default class About extends Component {
                 She came into this world smiling and wakes up laughing. She
                 truley blesses us with her wonderful curiosity and happiness.
                 Click to see more smiles.
+                <Link className="kinley-path" to="/Scarlett">
+                  More smiles here
+                </Link>
               </div>
             </div>
-            <Link className="kinlye-path" to="/Scarlett">
+            <div>
               <img
                 className="about-hero-link"
                 src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445457/Sized%20down%20for%20personal%20project/oc8uaebggywcrr3flsi4.jpg"
                 alt="none"
               />
-            </Link>
+            </div>
           </div>
           <div>
-            <div className="about-bottom-text">
-              {/* <div>
-                I also have a serious food passion and will eat just about
-                anything once. My favorites are meatball pizza sandwitches and
-                REAL pie. I love horror movies and wish I could retire and run
-                old theater showing unique movies of my choice. A good time for
-                me just being lazy around the house and watching movies. I do
-                love nature and hiking when my knees allow. Adventure is out
-                there.
-              </div> */}
-            </div>
+            <div className="about-bottom-text"></div>
           </div>
         </div>
       </div>
