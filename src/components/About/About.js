@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import "./About.css";
 import "./About.scss";
 
 export default class About extends Component {
@@ -62,17 +61,23 @@ export default class About extends Component {
         </div>
         <div className="about-middle-bottom">
           <div className="about-bottom-border"></div>
-          <div className="about-middle-box">
-            <img
-              className="about-me-image"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241184/Sized%20down%20for%20personal%20project/d6usqvhwwb8artzwadoq.jpg"
-              alt=""
-            />
-            <img
-              className="about-me-image-2"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574194408/Sized%20down%20for%20personal%20project/hnr7enbh0jsg02h5ldqz.jpg"
-              alt="none"
-            />
+          <div>
+            <div className="about-middle-box">
+              <div>
+                <img
+                  className="about-me-image-2"
+                  src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573241184/Sized%20down%20for%20personal%20project/d6usqvhwwb8artzwadoq.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="about-me-image-2"
+                  src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574194408/Sized%20down%20for%20personal%20project/hnr7enbh0jsg02h5ldqz.jpg"
+                  alt="none"
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div className="about-bottom-border-2"></div>
