@@ -17,3 +17,9 @@
   z-index: 100;
   border-radius: 10px;
 }
+@media (max-width: 600px) {
+  .drop-ul {
+    align-items: flex-start;
+    width: 133px;
+  }
+}

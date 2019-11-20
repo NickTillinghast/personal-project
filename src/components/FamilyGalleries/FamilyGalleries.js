@@ -29,7 +29,7 @@ export default class FamilyGalleries extends Component {
           </div>
         </div>
 
-        <div className="second-grif">
+        <div>
           <div className="family-container">
             <div className="family-item">
               <img
@@ -169,7 +169,7 @@ export default class FamilyGalleries extends Component {
             />
           </div>
         </div>
-        <div className="second-grif">
+        <div>
           <div className="family-container">
             <div className="family-item">
               <img
@@ -308,7 +308,7 @@ export default class FamilyGalleries extends Component {
             />
           </div>
         </div>
-        <div className="second-grif">
+        <div>
           <div className="family-container">
             <div className="family-item">
               <img

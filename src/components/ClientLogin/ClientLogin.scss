@@ -40,6 +40,7 @@
   border-width: 5px;
   border-color: rgb(212, 183, 151);
   border-style: solid;
+  margin-bottom: 50px;
 }
 .input-container {
   padding: 5px;
@@ -69,5 +70,10 @@
   }
   .reg-button {
     width: 40vw;
+  }
+}
+@media (max-width: 375px) {
+  .auth-container {
+    height: 40vh;
   }
 }

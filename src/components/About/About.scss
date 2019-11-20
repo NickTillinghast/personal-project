@@ -180,10 +180,11 @@
     height: 60vh;
   }
   .about-middle-box {
-    flex-direction: column;
+    // flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 45vh;
+    height: 60vh;
   }
   .about-me-image {
     height: 300px;
@@ -220,8 +221,17 @@
   .about-hero-link {
     width: 60vw;
   }
+  .about-middle-box {
+    height: 40vh;
+  }
+  .about-me-image-2 {
+    max-width: 40vw;
+  }
 }
 @media (max-width: 490px) {
+  .about-amber-image {
+    width: 45vw;
+  }
   .about-start {
     font-size: 10px;
   }
@@ -235,5 +245,10 @@
   .about-middle-box {
     width: 100vw;
     padding: 8px;
+    height: 35vh;
+  }
+  .about-gallery-1 {
+    padding: 10px;
+    height: 45vh;
   }
 }
