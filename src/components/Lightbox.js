@@ -18,7 +18,13 @@ const images = [
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/kiq0fkmghcnfxttqcfen.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/ffxtfxfzkqiaojlwxpv9.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/thxcitvigyszmckcyul6.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/xtjhlpzyfrqpmuchmdgs.jpg"
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/xtjhlpzyfrqpmuchmdgs.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/nagwiiczvmi7oqh0e3mt.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/tuwbctca2xkpnsfxb1dy.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/u9fhitmhvbmghkv2sdmn.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/t9lisbacmymwz5yeepx5.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/oato8j8wg7ch7wjespny.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572977353/Sized%20down%20for%20personal%20project/rntkkprn9wjpcimfi6en.jpg"
 ];
 
 export default class Images extends Component {
@@ -42,7 +48,7 @@ export default class Images extends Component {
         >
           <img
             className="lightbox-image"
-            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574124176/Sized%20down%20for%20personal%20project/gyk837ykdtejlt7rxrka.jpg"
+            src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574208493/yuy5fwzkjkjnuljz9xkn.jpg"
             alt="none"
           />
         </button>

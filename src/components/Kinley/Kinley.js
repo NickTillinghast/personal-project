@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Kinley.css";
+import "./Kinley.scss";
 
 export default class Kinley extends Component {
   render() {
@@ -22,6 +22,7 @@ export default class Kinley extends Component {
               />
             </div>
           </div>
+          <div className="kinley-bottom-border"></div>
           <div className="kinley-text">
             <div>
               <p>
@@ -31,6 +32,7 @@ export default class Kinley extends Component {
                 nightmare.
               </p>
             </div>
+            <div className="kinley-bottom-border"></div>
           </div>
         </div>
         <div className="kinley-grid">
@@ -38,25 +40,25 @@ export default class Kinley extends Component {
             <div className="kinley-grid-item">
               <img
                 className="kinley-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573503967/Sized%20down%20for%20personal%20project/lzr8ngqzv6dio2lhfj1q.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573503928/Sized%20down%20for%20personal%20project/uhe54gsmoe8eloknarh0.jpg"
                 alt="none"
               />
             </div>
-            <div className="grid-item">
+            <div className="kinley-grid-item">
               <img
                 className="kinley-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573503962/Sized%20down%20for%20personal%20project/pfi1vwkgf3i8q44jpw7s.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573503941/Sized%20down%20for%20personal%20project/ojjcij1owyqu38hzbmbr.jpg"
                 alt="none"
               />
             </div>
-            <div className="grid-item">
+            <div className="kinley-grid-item">
               <img
                 className="kinley-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573503958/Sized%20down%20for%20personal%20project/licwfrb0cbkzdqkqt1pe.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573515947/Sized%20down%20for%20personal%20project/it3xxmd82cjshaae53g5.jpg"
                 alt="none"
               />
             </div>
-            <div className="grid-item">
+            <div className="kinley-grid-item">
               <img
                 className="kinley-grid-image"
                 src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573503988/Sized%20down%20for%20personal%20project/bvrnxd1m4xmgtaesuzgf.jpg"

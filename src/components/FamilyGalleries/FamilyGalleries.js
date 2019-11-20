@@ -5,11 +5,8 @@ import "./FamilyGalleries.scss";
 export default class FamilyGalleries extends Component {
   render() {
     return (
-      <div>
-        <div className="middle">
-          <div className="family-container"></div>
-        </div>
-        <div className="family-text">
+      <div className="family-main">
+        <div>
           <div className="family-text">
             <h1 className="family-blurb">
               Of course I photograph families since I am a proud family man.
@@ -22,13 +19,16 @@ export default class FamilyGalleries extends Component {
         </div>
         <div className="family-hero-div">
           <div>
-            <img
-              className="family-hero"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573834774/Sized%20down%20for%20personal%20project/nrtd0au5bub5xy3p3ocj.jpg"
-              alt="none"
-            />
+            <div>
+              <img
+                className="family-hero"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574201381/Sized%20down%20for%20personal%20project/up0pwbrwqmcsn99zebws.jpg"
+                alt="none"
+              />
+            </div>
           </div>
         </div>
+
         <div className="second-grif">
           <div className="family-container">
             <div className="family-item">
@@ -52,13 +52,7 @@ export default class FamilyGalleries extends Component {
                 alt="none"
               />
             </div>
-            <div className="family-item">
-              <img
-                className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573834819/Sized%20down%20for%20personal%20project/yqqz2nvyonswscidtekz.jpg"
-                alt="none"
-              />
-            </div>
+
             <div className="family-item">
               <img
                 className="family-image"
@@ -164,27 +158,13 @@ export default class FamilyGalleries extends Component {
                 alt="none"
               />
             </div>
-            <div className="family-item">
-              <img
-                className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573834853/Sized%20down%20for%20personal%20project/stsebrztfe4p0o8zyfnc.jpg"
-                alt="none"
-              />
-            </div>
-            <div className="family-item">
-              <img
-                className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573834831/Sized%20down%20for%20personal%20project/s7woh0ucq7ulz87xdogc.jpg"
-                alt="none"
-              />
-            </div>
           </div>
         </div>
         <div className="family-hero-div">
           <div>
             <img
-              className="hero"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838511/Sized%20down%20for%20personal%20project/qxlfvrdrnksn75dtubee.jpg"
+              className="family-hero"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574201513/Sized%20down%20for%20personal%20project/g7xgmvyyzzsnp6qxuwv6.jpg"
               alt="none"
             />
           </div>
@@ -236,21 +216,21 @@ export default class FamilyGalleries extends Component {
             <div className="family-item">
               <img
                 className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838385/Sized%20down%20for%20personal%20project/mpg38t4kxkv3rwgvkbtj.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838549/Sized%20down%20for%20personal%20project/ptksqinxevogidbwt4yx.jpg"
                 alt="none"
               />
             </div>
             <div className="family-item">
               <img
                 className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838381/Sized%20down%20for%20personal%20project/pw0spgaxgffggp9qs5ja.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838536/Sized%20down%20for%20personal%20project/csnj8byn7gvcdqtypxig.jpg"
                 alt="none"
               />
             </div>
             <div className="family-item">
               <img
                 className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838371/Sized%20down%20for%20personal%20project/wpikxk1r5g1n0ritrkvx.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838526/Sized%20down%20for%20personal%20project/hok20hekymufgw1wer76.jpg"
                 alt="none"
               />
             </div>
@@ -299,21 +279,21 @@ export default class FamilyGalleries extends Component {
             <div className="family-item">
               <img
                 className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838188/Sized%20down%20for%20personal%20project/hmvhkzw4l4dzqqsu1kim.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838613/Sized%20down%20for%20personal%20project/gtjso25oknricwvukffr.jpg"
                 alt="none"
               />
             </div>
             <div className="family-item">
               <img
                 className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838184/Sized%20down%20for%20personal%20project/pdy3nislp2ox8jumyqld.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838581/Sized%20down%20for%20personal%20project/wfo4c3g5mltmg5p4x6e2.jpg"
                 alt="none"
               />
             </div>
             <div className="family-item">
               <img
                 className="family-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838187/Sized%20down%20for%20personal%20project/og0unzjqrezr7ik9dlyk.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573838554/Sized%20down%20for%20personal%20project/rqedmbygyytwxuuoyk89.jpg"
                 alt="none"
               />
             </div>
@@ -322,8 +302,8 @@ export default class FamilyGalleries extends Component {
         <div className="family-hero-div">
           <div>
             <img
-              className="hero"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573844501/Sized%20down%20for%20personal%20project/dfkihufdffiu39odltiw.jpg"
+              className="family-hero"
+              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1574201320/Sized%20down%20for%20personal%20project/m1wokaydgamedgccsvjr.jpg"
               alt="none"
             />
           </div>

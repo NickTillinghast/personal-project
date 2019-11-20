@@ -87,7 +87,7 @@ export default class About extends Component {
           </div>
           <div>
             <img
-              className="about-me-image"
+              className="about-amber-image"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445434/Sized%20down%20for%20personal%20project/defech5lzysmlxlgzopy.jpg"
               alt=""
             />

@@ -40,7 +40,7 @@ class Home extends Component {
                       alt="none"
                     />
                   </a>
-                  <div className="home-links">Full Gallery Here</div>
+                  <div className="home-links">View Full Gallery Here</div>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ class Home extends Component {
                     alt="none"
                   />
                 </a>
-                <div className="home-links">Full Gallery Here</div>
+                <div className="home-links">View Full Gallery Here</div>
               </div>
             </div>
             <div>
@@ -65,7 +65,7 @@ class Home extends Component {
                     alt="none"
                   />
                 </a>
-                <div className="home-links">Full Gallery Here</div>
+                <div className="home-links">View Full Gallery Here</div>
               </div>
             </div>
           </div>

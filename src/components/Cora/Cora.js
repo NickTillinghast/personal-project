@@ -1,26 +1,30 @@
 import React, { Component } from "react";
-// import "./Cora.css";
+
 import "./Cora.scss";
 
 export default class Cora extends Component {
   render() {
     return (
-      <div>
-        <div>
-          <div className="cora-hero-div">
-            <div className="cora-text">
+      <div className="cora-main">
+        <div className="cora-hero-div">
+          <div className="cora-text">
+            <div>
+              <img
+                className="cora-hero"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573666187/eblp0d1dvakptmfde0w4.jpg"
+                alt="none"
+              />
               <div>
                 This is my first born daughter who has made me father. I love
                 being a father and wouldn't have anything without my family.
+                Cora gets extra props since without her I'm not sure how I
+                could've gone on after our precious Kinley. Cora gave me a
+                reason to continue. I love her so much.
               </div>
             </div>
-            <img
-              className="cora-hero"
-              src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573666187/eblp0d1dvakptmfde0w4.jpg"
-              alt="none"
-            />
           </div>
         </div>
+        <div className="bottom-border-amber"></div>
         <div className="cora-container">
           <div className="cora-plain">
             <img

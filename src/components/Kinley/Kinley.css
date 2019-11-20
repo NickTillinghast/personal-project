@@ -1,4 +1,4 @@
-.kinley-grid-container {
+/* .kinley-grid-container {
   display: grid;
   width: 100vw;
   grid-column-gap: 10px;
@@ -39,8 +39,8 @@
   /* display: flex;
   justify-content: center;
   flex-direction: column; */
-  /* /* align-items: center; */
-  /* width: 100vw; */
-  font-size: 30px;
-  padding: 5px;
-}
+/* /* align-items: center; */
+/* width: 100vw; */
+/* font-size: 30px;
+  padding: 5px; */
+/* }  */
