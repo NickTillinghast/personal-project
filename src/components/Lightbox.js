@@ -43,6 +43,7 @@ export default class Images extends Component {
     return (
       <div className="lightbox-div">
         <button
+          className="home-button"
           type="lb-button"
           onClick={() => this.setState({ isOpen: true })}
         >

@@ -1,10 +1,7 @@
 .personal-project {
   background-color: black;
 }
-.personal-splash {
-  background-image: url("/Pool");
-  width: 100vw;
-}
+
 .personal-main {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -16,26 +13,27 @@
 
 .personal-grid-container {
   display: grid;
-  grid-column-gap: 1px;
-  grid-template-columns: auto auto auto;
+  width: 100vw;
+  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+  grid-auto-rows: 20vw;
+  padding: 20px;
 }
 .personal-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 50px;
   background-color: transparent;
   border-style: double;
   border-color: rgb(12, 41, 78);
   border-width: 7px;
   padding: 10px;
+  letter-spacing: 3px;
 }
 .personal-grid-item {
-  widows: 100%;
-  height: 100%;
-  object-fit: cover;
-  padding: 1px;
+  display: flex;
+  justify-content: center;
   border-style: double;
   border-color: rgb(12, 41, 78);
   border-width: 7px;
@@ -45,5 +43,33 @@
   width: 30vw;
 }
 .personal-hero {
-  width: 80vw;
+  width: 90vw;
+}
+@media (max-width: 1680px) {
+  .personal-text {
+    width: 80vw;
+    text-align: center;
+  }
+}
+@media (max-width: 1100px) {
+  .personal-grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    // padding: 20px;
+  }
+  .personal-grid-image {
+    width: 80vw;
+  }
+  .personal-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .personal-text {
+    font-size: 15px;
+  }
+  .personal-grid-image {
+    width: 60vw;
+  }
 }
