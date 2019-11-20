@@ -78,6 +78,7 @@
   width: 90%;
 }
 .about-me-image {
+  height: 550px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
     0px 10px 20px rgba(0, 0, 0, 0.541);
   width: 20vw;
@@ -89,9 +90,9 @@
   margin-left: 10px;
 }
 .about-me-image-2 {
+  width: 800px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
     0px 10px 20px rgba(0, 0, 0, 0.541);
-  width: 50vw;
 }
 .about-bottom-border {
   // width: 100vw;
@@ -152,6 +153,14 @@
   color: rgba(59, 114, 116, 0.705);
   text-decoration: none;
 }
+@media (max-width: 1300px) {
+  .about-me-image {
+    height: 370px;
+  }
+  .about-me-image-2 {
+    width: 500px;
+  }
+}
 @media (max-width: 1200px) {
   .about-middle {
     font-size: 18px;
@@ -172,6 +181,15 @@
   }
   .about-gallery-1 {
     height: 60vh;
+  }
+  .about-middle-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+  .about-me-image {
+    height: 300px;
   }
 }
 @media (max-width: 700px) {
@@ -216,5 +234,9 @@
   .about-amber {
     width: 90vw;
     font-size: 15px;
+  }
+  .about-middle-box {
+    width: 100vw;
+    padding: 8px;
   }
 }

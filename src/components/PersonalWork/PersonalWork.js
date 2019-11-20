@@ -8,11 +8,11 @@ export default class PersonalWork extends Component {
       <div className="personal-project">
         <div className="personal-main">
           <div className="personal-splash">
-            <img
+            {/* <img
               className="personal-hero"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573604019/Sized%20down%20for%20personal%20project/dug7oq1866gyrvpzn28m.jpg"
               alt="none"
-            />
+            /> */}
           </div>
           <div className="middle">
             <div>

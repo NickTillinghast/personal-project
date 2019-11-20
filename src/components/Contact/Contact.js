@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-// import "./Contact.css";
+
 // import Message from "../Message/Message";
 import "./Contact.scss";
 
@@ -59,12 +59,6 @@ export default class Contact extends Component {
     console.log(clientInfo);
   }
 
-  // onHandleChange(event) {
-  //   const name = event.target.getAttribute("name");
-  //   this.setState({
-  //     message: { ...this.state.message, [name]: event.target.value }
-  //   });
-  // }
   render() {
     return (
       <div className="contact-form-home">
