@@ -2,14 +2,16 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
 import Dropdown from "../DropDown/Dropdown";
-// import "./Header.css";
 import "./Header.scss";
 
 export default class Header extends Component {
-  state = {
-    navBar: false
-  };
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      navBar: false
+    };
+  }
   render() {
     return (
       <div className="header-main">
@@ -35,26 +37,42 @@ export default class Header extends Component {
               id="topnav"
             >
               <ul className="tabs">
-                <Link className="header-links" to="/ClientLogin">
+                <Link
+                  onClick={() => this.setState({ navBar: !this.state.navBar })}
+                  className="header-links"
+                  to="/ClientLogin"
+                >
                   Client Login
                 </Link>
-                <Link className="header-links" to="/Contact">
+                <Link
+                  onClick={() => this.setState({ navBar: !this.state.navBar })}
+                  className="header-links"
+                  to="/Contact"
+                >
                   Contact
                 </Link>
                 <div className="header-links">
-                  <Dropdown />
+                  <Dropdown
+                    toggleDropDown={() =>
+                      this.setState({ navBar: !this.state.navBar })
+                    }
+                  />
                 </div>
-                <Link className="header-links" to="/About">
+                <Link
+                  onClick={() => this.setState({ navBar: !this.state.navBar })}
+                  className="header-links"
+                  to="/About"
+                >
                   About
                 </Link>
 
-                <Link className="header-links" to="/">
+                <Link
+                  onClick={() => this.setState({ navBar: !this.state.navBar })}
+                  className="header-links"
+                  to="/"
+                >
                   Home
                 </Link>
-
-                {/* <Link className="header-links" to="/PersonalWork2">
-              second
-            </Link> */}
               </ul>
             </div>
           </div>

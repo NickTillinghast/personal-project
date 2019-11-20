@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import "./DropDown.scss";
 
 class Dropdown extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       displayMenu: false
@@ -37,16 +37,32 @@ class Dropdown extends React.Component {
 
         {this.state.displayMenu ? (
           <ul className="drop-ul">
-            <Link className="dropdown-links" to="/Weddings">
+            <Link
+              onClick={() => this.props.toggleDropDown()}
+              className="dropdown-links"
+              to="/Weddings"
+            >
               <li className="drop-li">Weddings</li>
             </Link>
-            <Link className="dropdown-links" to="/FamilyGalleries">
+            <Link
+              onClick={() => this.props.toggleDropDown()}
+              className="dropdown-links"
+              to="/FamilyGalleries"
+            >
               <li className="drop-li">Families</li>
             </Link>
-            <Link className="dropdown-links" to="/Portraits">
+            <Link
+              onClick={() => this.props.toggleDropDown()}
+              className="dropdown-links"
+              to="/Portraits"
+            >
               <li className="drop-li">Portraits</li>
             </Link>
-            <Link className="dropdown-links" to="/PersonalWork">
+            <Link
+              onClick={() => this.props.toggleDropDown()}
+              className="dropdown-links"
+              to="/PersonalWork"
+            >
               <li className="drop-li">Personal Work</li>
             </Link>
           </ul>
