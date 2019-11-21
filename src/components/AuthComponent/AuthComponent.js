@@ -131,6 +131,7 @@ class AuthComponent extends Component {
               className="reg-button"
               onClick={e => {
                 this.register(e);
+                alert("you've registered");
               }}
             >
               Register

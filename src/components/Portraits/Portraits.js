@@ -48,7 +48,7 @@ export default class Couples extends Component {
             <div className="port-grid-item">
               <img
                 className="port-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/bkhnx9b3wbc33a7slnlz.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/amldqeafinfl4hqjrwnv.jpg"
                 alt="none"
               />
             </div>
@@ -62,7 +62,7 @@ export default class Couples extends Component {
             <div className="port-grid-item">
               <img
                 className="port-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/amldqeafinfl4hqjrwnv.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/xrthwmpdt8hewmczeov5.jpg"
                 alt="none"
               />
             </div>
@@ -83,7 +83,7 @@ export default class Couples extends Component {
             <div className="port-grid-item">
               <img
                 className="port-grid-image"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/xrthwmpdt8hewmczeov5.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/vg0uc2hfnkzqxgwmylji.jpg"
                 alt="none"
               />
             </div>
