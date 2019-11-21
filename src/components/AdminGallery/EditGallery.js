@@ -166,18 +166,18 @@ export default class EditGallery extends Component {
                 }
               />
             </div>
-            <div>
+            <div className="input-boxes">
               <button onClick={this.cancelButton}>Cancel</button>
             </div>
-            <div>
+            <div className="input-boxes">
               <button onClick={() => this.deleteButton(this.props.gallery_id)}>
                 Delete
               </button>
             </div>
-            <div>
+            <div className="input-boxes">
               <button onClick={this.saveButton}>Save</button>
             </div>
-            <div>
+            <div className="input-boxes">
               <button onClick={() => this.addButton(this.state.newGalleryObj)}>
                 Add
               </button>

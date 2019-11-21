@@ -96,6 +96,20 @@
   .amber-blurb {
     width: 100vw;
   }
+  .amber-images {
+    margin: 10px 20px;
+  }
+}
+@media (max-width: 600px) {
+  .amber-hero {
+    width: 96vw;
+  }
+}
+@media (max-width: 425px) {
+  .amber-blurb {
+    font-size: 10px;
+    line-height: 1.1;
+  }
 }
 @media (max-width: 375px) {
   .amber-hero-div {

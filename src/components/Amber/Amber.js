@@ -55,7 +55,7 @@ export default class Amber extends Component {
               alt="none"
             />
           </div>
-          <div className="amber-images">
+          <div className="amber-div">
             <img
               className="amber-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444917/Sized%20down%20for%20personal%20project/ths1fzolxohj4qh4qzfd.jpg"

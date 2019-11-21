@@ -86,8 +86,8 @@ app.get("/auth/gallery_user", auth.usersOnly, userGalleries);
 // })
 
 app.post("/auth/contact", (req, res) => {
-  const { firstName, lastName, email, phone } = req.body;
-  console.log(firstName, lastName, email, phone);
+  const { firstName, lastName, email, phone, info } = req.body;
+  console.log(firstName, lastName, email, phone, info);
 
   let transporter = nodemailer.createTransport({
     service: "gmail",
@@ -113,6 +113,8 @@ app.post("/auth/contact", (req, res) => {
              <li>Name: ${firstName} ${lastName}</li>
              <li>Email: ${email}</li>
              <li>Phone: ${phone}</li>
+             <li>Info: ${info}</li>
+             
          </ul>
          <body>`
   };

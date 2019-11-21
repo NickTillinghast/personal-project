@@ -11,7 +11,8 @@ export default class Contact extends Component {
       firstName: "",
       lastName: "",
       email: "",
-      phone: ""
+      phone: "",
+      info: ""
       // message: {
       //   body: ""
       // },
@@ -40,20 +41,27 @@ export default class Contact extends Component {
       phone: value
     });
   }
+  infoHandleChange(value) {
+    this.setState({
+      info: value
+    });
+  }
   submitButton(e) {
     e.preventDefault();
     let clientInfo = {
       firstName: this.state.firstName,
       lastName: this.state.lastName,
       email: this.state.email,
-      phone: this.state.phone
+      phone: this.state.phone,
+      info: this.state.info
     };
     axios.post("auth/contact", clientInfo).then(response => {
       this.setState({
         firstName: "",
         lastName: "",
         email: "",
-        phone: ""
+        phone: "",
+        info: ""
       });
     });
     console.log(clientInfo);
@@ -119,6 +127,15 @@ export default class Contact extends Component {
                   onChange={e => this.phoneHandleChange(e.target.value)}
                 />
               </div>
+              <div>
+                <label className>Tell me About You</label>
+                <input
+                  className="contact-input-box"
+                  type="text"
+                  id="infoblurb"
+                  onChange={e => this.infoHandleChange(e.target.value)}
+                />
+              </div>
             </div>
             <div className="submit-button-contact">
               <button
@@ -128,24 +145,6 @@ export default class Contact extends Component {
               >
                 Send Your Info Via The Magic Of Internet
               </button>
-              {/* <form className="contact-form">
-                <div>
-                  <label htmlFor="to">To:</label>
-                  <input type="tel" name="to" id="to" />
-                </div>
-                <div>
-                  <label>Text Me Here:</label>
-                  <input
-                    className="contact-input-box"
-                    id="body"
-                    value={this.state.message.body}
-                    onChange={this.onHandleChange}
-                  />
-                </div>
-                <button className="message-send-button" type="submit">
-                  Send Text Message
-                </button>
-              </form> */}
             </div>
           </form>
         </div>
