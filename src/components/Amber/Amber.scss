@@ -93,6 +93,9 @@
     flex-direction: column;
     justify-content: center;
   }
+  .amber-blurb {
+    width: 100vw;
+  }
 }
 @media (max-width: 375px) {
   .amber-hero-div {
@@ -102,5 +105,8 @@
     justify-content: center;
 
     font-size: 10px;
+  }
+  .amber-blurb {
+    width: 100vw;
   }
 }

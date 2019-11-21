@@ -52,7 +52,6 @@ export default class FamilyGalleries extends Component {
                 alt="none"
               />
             </div>
-
             <div className="family-item">
               <img
                 className="family-image"

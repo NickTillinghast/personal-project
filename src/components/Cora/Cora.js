@@ -33,14 +33,14 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-vert">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445091/Sized%20down%20for%20personal%20project/qhlythzhxgrojtiukqjn.jpg"
               alt="none"
             />
           </div>
-          <div className="cora-horiz">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445139/Sized%20down%20for%20personal%20project/oges4m4qndyje58tk0c4.jpg"
@@ -61,7 +61,7 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-big">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444925/Sized%20down%20for%20personal%20project/hzuwtfsnesawlhd84tsp.jpg"
@@ -75,7 +75,7 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-vert">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445223/Sized%20down%20for%20personal%20project/a0h4s2mwqnmuihnczoo2.jpg"
@@ -89,7 +89,7 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-horiz">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445070/Sized%20down%20for%20personal%20project/k9zvafhzmrxbzyvrtobv.jpg"
@@ -103,7 +103,7 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-big">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444965/Sized%20down%20for%20personal%20project/jms3uuizj8pax7hjanoo.jpg"
@@ -117,7 +117,7 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-horiz">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444918/Sized%20down%20for%20personal%20project/dkx5t5kdibzvnpzy02nn.jpg"
@@ -131,7 +131,7 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-big">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444933/Sized%20down%20for%20personal%20project/sciccbfxv4lkhhh4apam.jpg"
@@ -145,21 +145,21 @@ export default class Cora extends Component {
               alt="none"
             />
           </div>
-          <div className="cora-vert">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445542/gvhpfitmrrz02fnexlcr.jpg"
               alt="none"
             />
           </div>
-          <div className="cora-vert">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445442/Sized%20down%20for%20personal%20project/d5hrlq0icbub6iaiocka.jpg"
               alt="none"
             />
           </div>
-          <div className="cora-vert">
+          <div className="cora-plain">
             <img
               className="cora-images"
               src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445452/Sized%20down%20for%20personal%20project/cmasxb1tog4tidilbeyh.jpg"

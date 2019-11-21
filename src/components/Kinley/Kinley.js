@@ -23,17 +23,24 @@ export default class Kinley extends Component {
             </div>
           </div>
           <div className="kinley-bottom-border"></div>
-          <div className="kinley-text">
-            <div>
-              <p>
-                This is my daughter Kinley. She was born unknowingly to us with
-                a chromosome abnormality. Our pregnancy was ordinary as any but
-                during the delivery started a three and a half month long
-                nightmare.
-              </p>
+          <div>
+            <div className="kinley-text">
+              <div>
+                <div>
+                  This is my daughter Kinley. She was born unknowingly to us
+                  with a chromosome abnormality. Our pregnancy was ordinary as
+                  any but during the delivery started a three and a half month
+                  long nightmare. I am forever changed and will never be the
+                  same ever again. There's a hole in my heart and life where my
+                  daughter should be. My wife and I did everything we could but
+                  heaven needed thier angel back. She was never alone while she
+                  was here and I spend almost every night with her, advocating
+                  for her and trying to comfort her as best as I could.
+                </div>
+              </div>
             </div>
-            <div className="kinley-bottom-border"></div>
           </div>
+          <div className="kinley-bottom-border"></div>
         </div>
         <div className="kinley-grid">
           <div className="kinley-grid-container">
