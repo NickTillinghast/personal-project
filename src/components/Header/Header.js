@@ -12,6 +12,7 @@ export default class Header extends Component {
       navBar: false
     };
   }
+
   render() {
     return (
       <div className="header-main">
@@ -31,8 +32,8 @@ export default class Header extends Component {
               </div>
             </div>
             <div
-              class={
-                this.state.navBar ? "navbar-toggle" : "navbar-toggle hidden"
+              className={
+                this.state.navBar ? "navbar-toggle " : "navbar-toggle hidden"
               }
               id="topnav"
             >

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-
-// import Message from "../Message/Message";
 import "./Contact.scss";
 
 export default class Contact extends Component {
@@ -13,13 +11,7 @@ export default class Contact extends Component {
       email: "",
       phone: "",
       info: ""
-      // message: {
-      //   body: ""
-      // },
-      // submitting: false,
-      // error: false
     };
-    // this.onHandleChange = this.onHandleChange.bind(this);
   }
   firstHandleChange(value) {
     this.setState({
@@ -55,6 +47,7 @@ export default class Contact extends Component {
       phone: this.state.phone,
       info: this.state.info
     };
+    alert("email sent");
     axios.post("auth/contact", clientInfo).then(response => {
       this.setState({
         firstName: "",
@@ -92,7 +85,7 @@ export default class Contact extends Component {
           <form className="contact-form">
             <div className="form-box">
               <div>
-                <label className>First Name</label>
+                <label className="contact-label">First Name</label>
                 <input
                   className="contact-input-box"
                   type="text"
@@ -101,7 +94,7 @@ export default class Contact extends Component {
                 />
               </div>
               <div>
-                <label className>Last Name</label>
+                <label className="contact-label">Last Name</label>
                 <input
                   className="contact-input-box"
                   type="text"
@@ -110,7 +103,7 @@ export default class Contact extends Component {
                 />
               </div>
               <div>
-                <label className>Email</label>
+                <label className="contact-label">Email</label>
                 <input
                   className="contact-input-box"
                   type="text"
@@ -119,7 +112,7 @@ export default class Contact extends Component {
                 />
               </div>
               <div>
-                <label className>Phone Number</label>
+                <label className="contact-label">Phone Number</label>
                 <input
                   className="contact-input-box"
                   type="text"
@@ -128,7 +121,7 @@ export default class Contact extends Component {
                 />
               </div>
               <div>
-                <label className>Tell me About You</label>
+                <label className="contact-label">Tell me About You</label>
                 <input
                   className="contact-input-box"
                   type="text"
@@ -143,7 +136,7 @@ export default class Contact extends Component {
                 onClick={e => this.submitButton(e)}
                 type="submit"
               >
-                Send Your Info Via The Magic Of Internet
+                Contact me so we can connect over a coffee
               </button>
             </div>
           </form>

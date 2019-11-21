@@ -71,7 +71,6 @@ export default class Couples extends Component {
                 className="port-grid-image"
                 src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573607073/Sized%20down%20for%20personal%20project/exwrxiuwqsuqlgzs5ou1.jpg"
                 alt="none"
-                https
               />
             </div>
             <div className="port-grid-item">

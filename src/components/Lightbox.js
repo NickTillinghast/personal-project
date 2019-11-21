@@ -12,7 +12,7 @@ const images = [
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970887/Sized%20down%20for%20personal%20project/ytt5w0ttiwnittnaeeba.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970886/Sized%20down%20for%20personal%20project/oc9bq4vpfz4gj2ekj7cl.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/l2jdnodfytdxphngpsjb.jpg",
-  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/wuh0mojnunpw2spf51pc.jpg",
+  "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970409/Sized%20down%20for%20personal%20project/zcs3rkkervl02piybc3n.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/xzso5gnq7jxsqwjkqton.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/d1s2dqqmw2yoiaq8kwb9.jpg",
   "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/kiq0fkmghcnfxttqcfen.jpg",

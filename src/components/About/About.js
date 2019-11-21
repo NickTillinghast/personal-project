@@ -8,7 +8,7 @@ export default class About extends Component {
       <div className="about-main">
         <div className="about-start">
           <div>
-            <div classname="about-start">
+            <div className="about-start">
               My passion for photography came to me early in my life. My family
               would document the crazy things that would happen in our family
               restaurnt. In college I took film courses and fell in love with

@@ -54,11 +54,21 @@
 }
 @media (max-width: 890px) {
   .circles {
-    flex-direction: column;
-    align-items: center;
+    // flex-direction: column;
+    // align-items: center;
   }
   .auth-container {
     width: 80vw;
+  }
+  .client-page-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .client-page-img {
+    height: 150px;
+    width: 150px;
   }
 }
 @media (max-width: 500px) {
@@ -72,8 +82,18 @@
     width: 40vw;
   }
 }
+@media (max-width: 470px) {
+  .circles {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media (max-width: 375px) {
   .auth-container {
-    height: 40vh;
+    height: 25vh;
+  }
+  .client-page-img {
+    height: 200px;
+    width: 200px;
   }
 }
