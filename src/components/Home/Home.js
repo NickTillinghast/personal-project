@@ -16,16 +16,16 @@ class Home extends Component {
         <div className="main-box">
           <Images />
         </div>
-        <div className="main-bottom-border"></div>
+        {/* <div className="main-bottom-border"></div> */}
 
         <div className="personal-box">
-          <div>
+          <div className="home-blurb">
             Welcome to my website. I have always loved imagery and the emotion
             that a still image can have. I pride myself on not only documenting
             the special times that happen in life, but also capturing the
-            feelings of that time as well.Sooooooo my website is gonna be packed
-            with imagery. I really want my work to speak for itself. I love real
-            moments and true colors.
+            feelings of that time as well. Sooooooo my website is gonna be
+            packed with imagery. I really want my work to speak for itself. I
+            love real moments and true colors.
           </div>
           <div className="main-bottom-border-1"></div>
 

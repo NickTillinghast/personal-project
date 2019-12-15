@@ -29,10 +29,10 @@ const {
 } = require("./controller/galleryController");
 
 const nodemailer = require("nodemailer");
-const client = require("twilio")(
-  process.env.TWILIO_ACCOUNT_SID,
-  process.env.TWILIO_AUTH_TOKEN
-);
+// const client = require("twilio")(
+//   process.env.TWILIO_ACCOUNT_SID,
+//   process.env.TWILIO_AUTH_TOKEN
+// );
 
 const { SESSION_SECRET, CONNECTION_STRING, SERVER_PORT } = process.env;
 const port = SERVER_PORT;

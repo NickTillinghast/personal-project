@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import axios from "axios";
 import Gallery from "../Gallery/Gallery";
 import EditGallery from "./EditGallery";

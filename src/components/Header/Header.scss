@@ -17,13 +17,9 @@
 
   letter-spacing: 3px;
 }
-.header-links:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 2px rgba(143, 143, 143, 0.2);
-}
+
 .header-links:active {
-  transform: translate(-3px);
-  box-shadow: 0 3px 10px rgba(27, 24, 24, 0.2);
+  color: black;
 }
 
 .header-main {

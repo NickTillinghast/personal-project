@@ -45,7 +45,7 @@ export default class About extends Component {
               </div>
             </div>
           </div>
-          <div className="about-bottom-border"></div>
+          {/* <div className="about-bottom-border"></div> */}
           <div>
             <div className="about-family">
               <div>

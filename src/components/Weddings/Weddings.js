@@ -14,6 +14,7 @@ export default class Portfolio extends Component {
                 Rustic Barn setting with an amazing view. Kristen and Dustin
                 Superstition Mountain Wedding.
               </div>
+
               <div>
                 <img
                   className="wedding-hero"
@@ -22,6 +23,7 @@ export default class Portfolio extends Component {
                 />
               </div>
             </div>
+            <div className="wedding-bottom-border"></div>
             <div className="second-grif">
               <div className="wedding-grid-container">
                 <div>
@@ -179,6 +181,7 @@ export default class Portfolio extends Component {
               </div>
             </div>
           </div>
+          <div className="wedding-bottom-border"></div>
           <div className="portfolio-text"></div>
         </div>
         <div className="middle">
@@ -348,7 +351,9 @@ export default class Portfolio extends Component {
             </div>
           </div>
         </div>
+
         <div className="second-grif">
+          <div className="wedding-bottom-border"></div>
           <div className="wedding-grid-container">
             <div>
               <img
