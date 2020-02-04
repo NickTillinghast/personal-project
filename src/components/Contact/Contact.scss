@@ -7,34 +7,24 @@
   margin-bottom: 50px;
   text-align: center;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 200;
   letter-spacing: 3px;
   line-height: 1.3;
   color: rgb(92, 88, 88);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-main {
-  background-color: rgb(233, 233, 233);
+  // background-color: rgb(245, 245, 245);
   margin: 0 auto;
-  border-style: solid;
+  // border-style: solid;
+
   border-width: medium;
   border-color: rgba(0, 0, 0, 0.822);
-  // border-radius: 20px;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
-    0px 10px 20px rgba(0, 0, 0, 0.541);
+  // box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
+  //   0px 10px 20px rgba(0, 0, 0, 0.541);
 }
 
-// .form-box {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: flex-end;
-//   justify-content: space-between;
-//   font-size: 25px;
-//   background-color: rgb(211, 211, 211);
-//   width: 50vw;
-//   height: 40vh;
-//   padding: 20px;
-// }
 .contact-bottom {
   display: flex;
   flex-direction: column;
@@ -49,8 +39,8 @@
 }
 
 .contact-input-box {
-  border-radius: 3px;
-  border-block-end-color: inherit;
+  // border-radius: 8px;
+  // border-block-end-color: inherit;
 }
 
 .contact-text {
@@ -58,6 +48,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   width: 80vw;
+  // height: 20%;
 }
 .contact-text-1 {
   padding: 20px;
@@ -65,17 +56,13 @@
 .send-button {
   padding: 10px;
   margin-top: 8px;
-  border-radius: 10px;
+  border-radius: 0.5px;
   background-color: rgb(255, 255, 255);
 }
-.message-send-button {
-  padding: 5px;
-  margin-top: 5px;
-  border-radius: 10px;
-}
+
 #infoblurb {
-  height: 100px;
-  width: 300px;
+  height: 20%;
+  width: 50%;
   padding: 20px;
 }
 @media (max-width: 1350px) {

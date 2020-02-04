@@ -142,8 +142,8 @@ export default class About extends Component {
             </div>
           </div>
           <div className="about-gallery-1">
-            <div>
-              <div className="about-text-divs">
+            <div className="about-text-divs">
+              <div>
                 Our rainbow baby Scarlett. Her spirit is something to admire.
                 She came into this world smiling and wakes up laughing. She
                 truley blesses us with her wonderful curiosity and happiness.

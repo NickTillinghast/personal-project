@@ -63,12 +63,12 @@
   justify-content: space-evenly;
   background-color: rgb(202, 236, 238);
   padding: 7px;
-  border-radius: 15px;
+  // border-radius: 15px;
   color: rgb(97, 97, 97);
 }
 
 .about-bottom {
-  font-size: 30px;
+  font-size: 27px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -77,6 +77,7 @@
 }
 .about-hero-link {
   width: 90%;
+  padding: 5%;
 }
 .about-amber-image {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
@@ -113,6 +114,7 @@
   border-width: 6px;
   border-color: rgb(255, 245, 216);
   padding: 20px;
+  height: 45%;
 }
 .about-bottom-border-2 {
   width: 100vw;
@@ -155,15 +157,15 @@
     height: 370px;
   }
   .about-me-image-2 {
-    width: 500px;
+    width: 90%;
   }
   .about-gallery-1 {
-    height: 70vh;
+    height: 80%;
   }
 }
 @media (max-width: 1025px) {
   .about-gallery-1 {
-    height: 80vh;
+    height: 80%;
   }
 }
 @media (max-width: 1200px) {
