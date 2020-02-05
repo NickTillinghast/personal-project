@@ -47,7 +47,6 @@
 }
 .main-bottom-border {
   width: 100vw;
-
   border-style: solid;
   border-width: 2px;
   border-bottom-style: solid;
@@ -91,7 +90,6 @@
   width: 100vw;
   display: flex;
   padding: 20px;
-
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -100,9 +98,7 @@
   text-decoration: none;
   color: black;
 }
-.home-button {
-  // height: 80vh;
-}
+
 @media (max-width: 1100px) {
   .home-gallery-link {
     flex-direction: column;

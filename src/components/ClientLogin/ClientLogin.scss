@@ -12,7 +12,7 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 30px;
   letter-spacing: 4px;
   line-height: 1.4;
@@ -33,11 +33,11 @@
   justify-content: space-evenly;
   padding: 30px;
   text-align: center;
-  border-radius: 30px;
+  // border-radius: 30px;
   font-size: 20px;
   width: 40vw;
   background-color: rgb(253, 239, 239);
-  border-width: 5px;
+  border-width: 2px;
   border-color: rgb(212, 183, 151);
   border-style: solid;
   margin-bottom: 50px;
@@ -48,15 +48,11 @@
 .reg-button {
   width: 20vw;
   height: 20px;
-  border-radius: 30px;
+  // border-radius: 30px;
   color: rgb(139, 23, 139);
   background-color: white;
 }
 @media (max-width: 890px) {
-  .circles {
-    // flex-direction: column;
-    // align-items: center;
-  }
   .auth-container {
     width: 80vw;
   }
