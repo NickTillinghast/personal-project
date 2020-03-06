@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./Cora.scss";
 
 export default class Cora extends Component {

@@ -58,6 +58,7 @@ export default class Header extends Component {
                       this.setState({ navBar: !this.state.navBar })
                     }
                   />
+
                 </div>
                 <Link
                   onClick={() => this.setState({ navBar: !this.state.navBar })}

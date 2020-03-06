@@ -99,7 +99,15 @@ export default class About extends Component {
           </div>
         </div>
         <div className="about-bottom">
+          <div></div>
           <div className="about-gallery-1">
+            <div>
+              <img
+                className="about-hero-link"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573515965/Sized%20down%20for%20personal%20project/lqe8dp558bsyddxvqpyo.jpg"
+                alt="none"
+              />
+            </div>
             <div className="about-text-divs">
               <div>
                 There's a huge part of my life that most people do not know
@@ -112,16 +120,17 @@ export default class About extends Component {
               </div>
             </div>
             <div>
-              <div>
-                <img
-                  className="about-hero-link"
-                  src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573515965/Sized%20down%20for%20personal%20project/lqe8dp558bsyddxvqpyo.jpg"
-                  alt="none"
-                />
-              </div>
+
             </div>
           </div>
           <div className="about-gallery-1">
+            <div>
+              <img
+                className="about-hero-link"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444961/Sized%20down%20for%20personal%20project/fef6jb6p193oberlb8gy.jpg"
+                alt="none"
+              />
+            </div>
             <div className="about-text-divs">
               <div>
                 Meet my fist born. She's fierce like her mom and beautiful like
@@ -133,15 +142,16 @@ export default class About extends Component {
                 </Link>
               </div>
             </div>
+
+          </div>
+          <div className="about-gallery-1">
             <div>
               <img
                 className="about-hero-link"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573444961/Sized%20down%20for%20personal%20project/fef6jb6p193oberlb8gy.jpg"
+                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445457/Sized%20down%20for%20personal%20project/oc8uaebggywcrr3flsi4.jpg"
                 alt="none"
               />
             </div>
-          </div>
-          <div className="about-gallery-1">
             <div className="about-text-divs">
               <div>
                 Our rainbow baby Scarlett. Her spirit is something to admire.
@@ -153,16 +163,6 @@ export default class About extends Component {
                 </Link>
               </div>
             </div>
-            <div>
-              <img
-                className="about-hero-link"
-                src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445457/Sized%20down%20for%20personal%20project/oc8uaebggywcrr3flsi4.jpg"
-                alt="none"
-              />
-            </div>
-          </div>
-          <div>
-            <div className="about-bottom-text"></div>
           </div>
         </div>
       </div>

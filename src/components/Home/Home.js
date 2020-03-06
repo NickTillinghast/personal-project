@@ -28,44 +28,41 @@ class Home extends Component {
             love real moments and true colors.
           </div>
           <div className="main-bottom-border-1"></div>
-
           <div className="home-gallery-link">
             <div>
-              <div>
-                <div className="home-gallery-1">
-                  <a href="https://nicktillinghastphotography.pixieset.com/eliseandjames/">
-                    <img
-                      className="gal-1-image"
-                      src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572975817/Sized%20down%20for%20personal%20project/gku6rspbf913vc67xrrj.jpg"
-                      alt="none"
-                    />
-                  </a>
-                  <div className="home-links">View Full Gallery Here</div>
-                </div>
+              <div className="home-gallery-1">
+                <a className="home-links" href="https://nicktillinghastphotography.pixieset.com/eliseandjames/">
+                  <img
+                    className="gal-1-image"
+                    src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572975817/Sized%20down%20for%20personal%20project/gku6rspbf913vc67xrrj.jpg"
+                    alt="none"
+                  />
+                  <p>View Full Gallery Here</p>
+                </a>
               </div>
             </div>
             <div>
               <div className="home-gallery-1">
-                <a href="https://nicktillinghastphotography.pixieset.com/davidandalexisslideshow/">
+                <a className="home-links" href="https://nicktillinghastphotography.pixieset.com/davidandalexisslideshow/">
                   <img
                     className="gal-1-image"
                     src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1572970410/Sized%20down%20for%20personal%20project/ffxtfxfzkqiaojlwxpv9.jpg"
                     alt="none"
                   />
+                  <div>View Full Gallery Here</div>
                 </a>
-                <div className="home-links">View Full Gallery Here</div>
               </div>
             </div>
             <div>
               <div className="home-gallery-1">
-                <a href="https://nicktillinghastphotography.pixieset.com/delaneyfamily/">
+                <a className="home-links" href="https://nicktillinghastphotography.pixieset.com/delaneyfamily/">
                   <img
                     className="gal-1-image"
                     src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573181929/Sized%20down%20for%20personal%20project/rwfdguxeibuo9fgvqz57.jpg"
                     alt="none"
                   />
+                  <div >View Full Gallery Here</div>
                 </a>
-                <div className="home-links">View Full Gallery Here</div>
               </div>
             </div>
           </div>

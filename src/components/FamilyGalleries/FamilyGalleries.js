@@ -70,7 +70,7 @@ export default class FamilyGalleries extends Component {
               <img
                 className="family-image"
                 src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573834844/Sized%20down%20for%20personal%20project/yx0nre4q72p6meq0z2qt.jpg"
-                alt="none"
+                alt="6"
               />
             </div>
             <div className="family-item">

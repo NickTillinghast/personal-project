@@ -17,7 +17,7 @@
 }
 .about-start {
   font-size: 25px;
-  letter-spacing: 4px;
+  letter-spacing: 3.2px;
   line-height: 100%;
   padding: 10px;
   width: 80vw;
@@ -199,6 +199,9 @@
   }
 }
 @media (max-width: 650px) {
+  .about-text-divs {
+    height: 25%;
+  }
   .about-start {
     font-size: 17px;
   }
@@ -218,6 +221,7 @@
   }
   .about-gallery-1 {
     width: 80vw;
+    height: 47%;
     padding: 10px;
     background-color: white;
   }
