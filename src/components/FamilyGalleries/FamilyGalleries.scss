@@ -3,8 +3,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  -webkit-animation: fadein 1s;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .family-blurb {
   font-size: 20px;
   width: 70vw;

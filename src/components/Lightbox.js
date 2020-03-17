@@ -54,6 +54,7 @@ export default class Images extends Component {
           />
         </button>
 
+
         {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}

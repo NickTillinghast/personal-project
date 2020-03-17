@@ -7,6 +7,16 @@
   width: 100vw;
   text-align: center;
   padding: 10px;
+  -webkit-animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .about-hero {
   display: flex;

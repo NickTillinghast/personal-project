@@ -6,7 +6,7 @@ import "./Weddings.scss";
 export default class Portfolio extends Component {
   render() {
     return (
-      <div className="about-main">
+      <div className="portfolio-main">
         <div className="top">
           <div>
             <div className="barn-main">

@@ -10,6 +10,26 @@
   justify-content: space-around;
   width: 98vw;
 }
+.portfolio-main {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+  -webkit-animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .barn-main {
   display: flex;
   flex-direction: column;
@@ -45,6 +65,7 @@
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
     0px 10px 20px rgba(0, 0, 0, 0.541);
 }
+
 .wedding-bottom-border {
   padding: 2px;
   border-style: solid;
