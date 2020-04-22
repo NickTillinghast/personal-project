@@ -68,22 +68,7 @@ app.put("/auth/edit_gallery", editGallery);
 app.get("/auth/get_gallery_info/:id", getGallery);
 app.post("/auth/add_client_gallery", addGallery);
 app.get("/auth/gallery_user", auth.usersOnly, userGalleries);
-// app.post("/auth/messages", (req, res) => {
-//   res.header('Content-Type', 'application/json');
-// client.messages
-// .create({
-//   from: process.env.TWILIO_PHONE_NUMBER,
-//   to: req.body.to,
-//   body: req.body.body
-// })
-// .then(() => {
-//   res.send(JSON.stringify({ success: true }));
-// })
-// .catch(err => {
-//   console.log(err);
-//   res.send(JSON.stringify({ success: false }));
-// });
-// })
+
 
 app.post("/auth/contact", (req, res) => {
   const { firstName, lastName, email, phone, info } = req.body;
@@ -119,7 +104,7 @@ app.post("/auth/contact", (req, res) => {
          <body>`
   };
 
-  transporter.sendMail(mailOptions, function(err, data) {
+  transporter.sendMail(mailOptions, function (err, data) {
     if (err) {
       console.log("error occurs");
     } else {
