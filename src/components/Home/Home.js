@@ -15,6 +15,7 @@ class Home extends Component {
         {/* <div className="main-bottom-border-1"></div> */}
         <div className="main-box">
           <Images />
+
         </div>
         {/* <div className="main-bottom-border"></div> */}
 

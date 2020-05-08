@@ -2,9 +2,10 @@
   cursor: pointer;
   background-color: rgb(214, 214, 214);
 }
-/* .lightbox-button {
+.home-btn-box {
+  height: 40px;
+  width: 20vw;
   border: solid;
-  border-color: black;
-  border-width: 0.2rem;
-  width: 20%;
-} */
+  border-width: 1px;
+  border-color: lightblue;
+}
