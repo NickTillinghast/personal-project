@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Portraits.scss";
-// import "./Portraits.css";
+
 
 export default class Couples extends Component {
   render() {
