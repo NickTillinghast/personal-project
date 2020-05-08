@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import "./FamilyGalleries.css";
+
 import "./FamilyGalleries.scss";
 
 export default class FamilyGalleries extends Component {
