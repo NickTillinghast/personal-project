@@ -1,7 +1,6 @@
 module.exports = {
   userGalleries: async (req, res) => {
     const { user_id } = req.session.user;
-    // console.log("session", req.session);
     const db = await req.app.get("db");
     const galleries = await db.get_user_galleries([user_id]);
     return res.status(200).send(galleries);
