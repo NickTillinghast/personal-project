@@ -98,9 +98,9 @@ app.post("/auth/contact", (req, res) => {
       rejectUnauthorized: false
     }
   });
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../build/index.html"));
-  });
+  // app.get("*", (req, res) => {
+  //   res.sendFile(path.join(__dirname, "../build/index.html"));
+  // });
 
   let mailOptions = {
     from: email,
@@ -125,6 +125,9 @@ app.post("/auth/contact", (req, res) => {
       console.log("email sent");
     }
   });
+});
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../build/index.html"));
 });
 
 app.listen(port, () => console.log(`listening on port ${port}`));
