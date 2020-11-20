@@ -126,8 +126,10 @@ app.post("/auth/contact", (req, res) => {
     }
   });
 });
+
+
+app.listen(port, () => console.log(`listening on port ${port}`));
+
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../build/index.html"));
 });
-
-app.listen(port, () => console.log(`listening on port ${port}`));
