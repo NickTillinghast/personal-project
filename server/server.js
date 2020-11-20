@@ -32,7 +32,7 @@ const {
 
 const nodemailer = require("nodemailer");
 
-
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 const { SESSION_SECRET, CONNECTION_STRING, SERVER_PORT } = process.env;
 const port = SERVER_PORT;
 
