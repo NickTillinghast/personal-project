@@ -11,6 +11,8 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(`${__dirname}/../build`));
+// app.use(express.static(path.join(__dirname, "/../build")));
+
 const {
   register,
   login,
@@ -45,13 +47,28 @@ app.use(
   })
 );
 
-// app.use("/public", express.static(path.join(__dirname, "public")));
-app.use(express.static(path.join(__dirname, "/../build")));
+// massive({
+//   connectionString: CONNECTION_STRING,
+//   ssl: {
+//     rejectUnauthorized: false,
+//   },
+// })
+//   .then((db) => {
+//     app.set('db', db);
+//   })
+//   .catch((err) => console.log(err));
+// massive(
+//   CONNECTION_STRING
+// ).then(db => {app.set("db", db)});
+app.use("/public", express.static(path.join(__dirname, "public")));
+// app.use(express.static(path.join(__dirname, "/../build")));
 
-massive(CONNECTION_STRING).then(db => {
+massive(process.env.CONNECTION_STRING).then(db => {
   console.log("db connected");
   app.set("db", db);
 });
+
+
 
 app.post("/auth/register", register);
 app.post("/auth/login", login);
