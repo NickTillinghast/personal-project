@@ -40,7 +40,7 @@ export default class About extends Component {
                 <img
                   className="family-shot"
                   src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573530452/xcjhsgylhmlrwssqfbty.jpg"
-                  alt="no"
+                  alt="none"
                 />
               </div>
             </div>
