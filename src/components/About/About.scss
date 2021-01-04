@@ -1,9 +1,11 @@
 .about-main {
   background-color: rgb(255, 255, 255);
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
   width: 100vw;
   text-align: center;
   padding: 10px;
@@ -56,6 +58,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+
   padding: 20px;
   width: 100vw;
 }
@@ -66,10 +69,11 @@
 }
 .about-gallery-1 {
   flex-direction: column;
+  justify-content: space-evenly;
+
   height: 90vh;
   width: 30vw;
   background-color: transparent;
-  justify-content: space-evenly;
   background-color: rgb(202, 236, 238);
   padding: 7px;
   color: rgb(97, 97, 97);
