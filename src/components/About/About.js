@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+// import CustomButton from '../custom-button-component/custom-button-component';
+
 import "./About.scss";
 
 export default class About extends Component {
   render() {
+
     return (
       <div className="about-main">
         <div className="about-start">
@@ -114,9 +117,13 @@ export default class About extends Component {
                 about me. My wife and I have endured what is in my opinion one
                 of the worst things that can happen to a couple. More info here
                 if you are willing. Possible tears warning.
+                {/* <CustomButton   > Add to cart </CustomButton> */}
+
+                {/* <button> */}
                 <Link className="kinley-path" to="/Kinley">
                   Click to read more
                 </Link>
+                {/* </button> */}
               </div>
             </div>
             <div>
