@@ -120,7 +120,7 @@ app.post("/auth/contact", (req, res) => {
 
   transporter.sendMail(mailOptions, function (err, data) {
     if (err) {
-      console.log("error occurs");
+      console.log("there was an error with sending email");
     } else {
       console.log("email sent");
     }
