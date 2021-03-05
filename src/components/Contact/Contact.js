@@ -145,7 +145,7 @@ export default class Contact extends Component {
                   onClick={e => this.submitButton(e)}
                   type="submit"
                 >
-                  Contact me so we can connect over a coffee
+                  Contact me so we can connect over a social distant coffee.
                 </button>
               </div>
             </div>
