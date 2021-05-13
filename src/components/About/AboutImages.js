@@ -40,5 +40,19 @@ export default [
       "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572911989/My%20family/oksiua0o79fupc9me65z.jpg",
     width: 3,
     height: 2
+  },
+  {
+    id: 6,
+    src:
+      "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572911989/My%20family/oksiua0o79fupc9me65z.jpg",
+    width: 3,
+    height: 2
+  },
+  {
+    id: 6,
+    src:
+      "https://res.cloudinary.com/dqpatwz6c/image/upload/v1572911989/My%20family/oksiua0o79fupc9me65z.jpg",
+    width: 3,
+    height: 2
   }
 ];
