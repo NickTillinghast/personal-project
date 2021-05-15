@@ -18,7 +18,7 @@ export default class Cora extends Component {
                 being a father and wouldn't have anything without my family.
                 Cora gets extra props since without her I'm not sure how I
                 could've gone on after our precious Kinley. Cora gave me a
-                reason to continue. I love her so much.
+                reason to continue. She's Sweet and sassy and I love her so much.
               </div>
             </div>
           </div>
