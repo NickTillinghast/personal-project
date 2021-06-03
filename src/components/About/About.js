@@ -8,7 +8,7 @@ export default class About extends Component {
   render() {
 
     return (
-      <div className="about-main">
+      <main className="about-main">
         <div className="about-start">
           <div>
             <div className="about-start">
@@ -35,7 +35,7 @@ export default class About extends Component {
                 <img
                   className="family-shot"
                   src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573530108/Sized%20down%20for%20personal%20project/g778ovwfvtmbyxdzdbe7.jpg"
-                  alt="none"
+                  alt="family portrait of Nick Tillinghast his wife and two children"
                 />
               </div>
 
@@ -43,7 +43,7 @@ export default class About extends Component {
                 <img
                   className="family-shot"
                   src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1573530452/xcjhsgylhmlrwssqfbty.jpg"
-                  alt="none"
+                  alt="family portrait of Nick Tillinghast his wife and two children"
                 />
               </div>
             </div>
@@ -172,7 +172,7 @@ export default class About extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     );
   }
 }
