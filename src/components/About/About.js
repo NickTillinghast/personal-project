@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import CustomButton from '../custom-button-component/custom-button-component';
 
 import "./About.scss";
 
@@ -9,24 +8,20 @@ export default class About extends Component {
 
     return (
       <main className="about-main">
-        <div className="about-start">
-          <div>
-            <div className="about-start">
-              My passion for photography came to me early in my life. My family
-              would document the crazy things that would happen in our family
-              restaurnt. In college I took film courses and fell in love with
-              the medium. I was fascinated with all the cool things that can be
-              done in photography and loved conveying moments in a still image.
-              It didn't take long to get into the photographer network and after
-              working with many other photographers I honed my skills and became
-              obessed with the real moments of life and love. Photography for me
-              is not just about pretty pictures but also about feelings and
-              time. Sometimes when I look at images I can transport back to
-              feelings and remember the love, excitement and other feelings of
-              life than make it so wonderful.
-            </div>
-          </div>
-        </div>
+        <section className="about-start">
+          My passion for photography came to me early in my life. My family
+          would document the crazy things that would happen in our family
+          restaurnt. In college I took film courses and fell in love with
+          the medium. I was fascinated with all the cool things that can be
+          done in photography and loved conveying moments in a still image.
+          It didn't take long to get into the photographer network and after
+          working with many other photographers I honed my skills and became
+          obessed with the real moments of life and love. Photography for me
+          is not just about pretty pictures but also about feelings and
+          time. Sometimes when I look at images I can transport back to
+          feelings and remember the love, excitement and other feelings of
+          life than make it so wonderful.
+        </section>
 
         <div className="about-middle">
           <div className="about-family">
@@ -117,7 +112,6 @@ export default class About extends Component {
                 about me. My wife and I have endured what is in my opinion one
                 of the worst things that can happen to a couple. More info here
                 if you are willing. Possible tears warning.
-                {/* <CustomButton   > Add to cart </CustomButton> */}
 
                 {/* <button> */}
                 <Link className="kinley-path" to="/Kinley">
